@@ -1,8 +1,216 @@
 [
   {
+    "id": 1893,
+    "title": "Star Wars: Episódio I - A Ameaça Fantasma",
+    "releaseDate": "1999-05-19",
+    "posterPath": "/pfC6UU9Dik01e80aUPCHI9idDZ.jpg",
+    "overview": "Enquanto resgatam a Rainha Amidala, governante de um planeta pacífico invadido por forças ameaçadoras, os Cavaleiros Jedi Obi-Wan Kenobi e Qui-Gon Jinn descobrem Anakin Skywalker, uma criança prodígio de 9 anos excepcionalmente poderosa na Força.",
+    "duration": 136,
+    "rating": 6.564,
+    "genres": [
+      {
+        "id": 12,
+        "name": "Aventura"
+      },
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1FQd6rMih6a-EhkmKOWRrVI7RJpT3UXb4/preview?usp=drivesdk"
+  },
+  {
+    "id": 68724,
+    "title": "Elysium",
+    "releaseDate": "2013-08-07",
+    "posterPath": "/2QxAzqKf56IMHMMbPkaIkb3Ul6S.jpg",
+    "overview": "Em 2159, o mundo é dividido entre dois grupos: o primeiro, riquíssimo, mora na estação espacial Elysium, enquanto o segundo, pobre, vive na Terra, repleta de pessoas e em grande decadência. Por um lado, a secretária do governo Rhodes faz de tudo para preservar o estilo de vida luxuoso de Elysium, por outro, um pobre cidadão da Terra tenta um plano ousado para trazer de volta a igualdade entre as pessoas.",
+    "duration": 109,
+    "rating": 6.512,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      },
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1YV90p1C_-rbBfiGigvl9XAgu73ZhyDlf/preview?usp=drivesdk"
+  },
+  {
+    "id": 509967,
+    "title": "Esquadrão 6",
+    "releaseDate": "2019-12-10",
+    "posterPath": "/f35zQlRTkEO9LBWDWaikiXzQrmD.jpg",
+    "overview": "Após forjar a própria morte, um bilionário monta uma equipe de profissionais internacionais para a ousada e sanguinária missão de derrubar um ditador cruel.",
+    "duration": 128,
+    "rating": 6.344,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1gyf8ab0zhXSigytyfZ4WTYWWR7ZuzzTm/preview?usp=drivesdk"
+  },
+  {
+    "id": 2636,
+    "title": "O Especialista",
+    "releaseDate": "1994-10-07",
+    "posterPath": "/cZiruAWPqKzJQRhU9LQ9k5iGLbB.jpg",
+    "overview": "Mulher contrata um especialista em explosivos para realizar plano de vingança contra os gângsters que mataram seus pais. Ray Quick trabalhava para a C.I.A., mas largou tudo depois que uma operação fracassada contra um traficante de drogas provocou a morte de uma criança. Agora, o perito em explosivos que vive em Miami é persuadido por uma mulher obcecada que quer se vingar de uma poderosa família do crime organizado.",
+    "duration": 110,
+    "rating": 5.937,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1kexYHD5gOm9o87D5FBnW5LVmqiNqEVbJ/preview?usp=drivesdk"
+  },
+  {
+    "id": 754,
+    "title": "A Outra Face",
+    "releaseDate": "1997-06-27",
+    "posterPath": "/loR8prjWhkOdufD1rfREpXQsrNJ.jpg",
+    "overview": "Obcecado em trazer o terrorista Castor Troy à justiça, o agente do FBI Sean Archer rastreia Troy, que embarcou em um avião em Los Angeles. Depois que o avião cai e Troy fica gravemente ferido, Archer passa por uma cirurgia para remover seu rosto e substituí-lo pelo do criminoso. Quando Archer tenta usar seu disfarce para obter informações do irmão de Troy sobre uma bomba, Troy acorda de um coma e obriga o médico que realizou a cirurgia a dar-lhe o rosto de Archer.",
+    "duration": 139,
+    "rating": 7.047,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1Kl4j89boEmuYzQAaUNmcWQcyr1thmryc/preview?usp=drivesdk"
+  },
+  {
+    "id": 1738,
+    "title": "O Vidente",
+    "releaseDate": "2007-04-25",
+    "posterPath": "/fFehtsCSORmECTCgs6mntAYFvL4.jpg",
+    "overview": "Um astro do cassino ganha a vida prevendo acontecimentos, mas sua vida muda quando a polícia de Los Angeles descobre seu dom e lhe pede ajuda para evitar que um ataque terrorista detone armas nucleares. Porém ele fica dividido entre salvar o mundo ou salvar a mulher que ama.",
+    "duration": 96,
+    "rating": 6.106,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1Qhlkhmiy-8UdvtCDlm8jwKBmYlRN-UvW/preview?usp=drivesdk"
+  },
+  {
+    "id": 677179,
+    "title": "Creed III",
+    "releaseDate": "2023-03-01",
+    "posterPath": "/kLgmZVrRVY41FWCCidi9IqmM473.jpg",
+    "overview": "Depois de dominar o mundo do boxe, Adonis Creed tem prosperado em sua carreira e vida familiar. Quando um amigo de infância e ex-prodígio do boxe, Damien Anderson, ressurge depois de cumprir uma longa sentença na prisão, ele está ansioso para provar que merece sua chance no ringue. O confronto entre ex-amigos é mais do que apenas uma briga. Para acertar as contas, Adonis deve colocar seu futuro em risco para lutar contra Damien - um lutador que não tem nada a perder.",
+    "duration": 116,
+    "rating": 7.093,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 28,
+        "name": "Ação"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1Fi_ODgovbZbkuR_7cog_2p_2FOJujeBB/preview?usp=sharing"
+  },
+  {
+    "id": 559969,
+    "title": "El Camino: A Breaking Bad Film",
+    "releaseDate": "2019-10-11",
+    "posterPath": "/8sOZcIGJ8ihQELnhKS2qStxe1dh.jpg",
+    "overview": "Após sua dramática fuga do cativeiro, Jesse precisa se reconciliar com o passado para que consiga criar algum tipo de futuro. Escrito e dirigido pelo criador de Breaking Bad, Vince Gilligan, e estrelado por Aaron Paul.",
+    "duration": 122,
+    "rating": 6.965,
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/17t2XNrF2z9ROuAVLYwtgrw_XnlquCtHV/preview?usp=sharing"
+  },
+  {
+    "id": 617126,
+    "title": "Quarteto Fantástico: Primeiros Passos",
+    "releaseDate": "2025-07-23",
+    "posterPath": "/hlWOAWRKSno6UxaE0IXDFVvmzTf.jpg",
+    "overview": "No vibrante cenário de um mundo retrofuturista inspirado nos anos 1960, a Primeira Família da Marvel é forçada a equilibrar seus papéis como heróis com a força de seus laços familiares, enquanto defendem a Terra de um deus espacial voraz chamado Galactus e sua enigmática arauta, a Surfista Prateada.",
+    "duration": 115,
+    "rating": 7.2,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      },
+      {
+        "id": 12,
+        "name": "Aventura"
+      }
+    ],
+    "link": "https://drive.google.com/file/d/1vSX40_epRGDVrq42ehDwMsBBKxiu3Tn8/preview?usp=sharing"
+  },
+  {
     "id": 37834,
     "title": "Encontro Explosivo",
-    "releaseDate": "2010-06-23",
+    "releaseDate": "2010-06-15",
     "posterPath": "/ovgL7y93qKZpOWLlmYsZPf8HzYM.jpg",
     "overview": "Roy Miller (Tom Cruise) é um agente que guarda consigo uma bateria especial, que jamais descarrega. O objeto é cobiçado pelo governo dos Estados Unidos, que enviou o agente Fitzgerald (Peter Sarsgaard) para obtê-lo, e Antonio (Jordi Mollà), um perigoso bandido espanhol. No aeroporto Miller usa June Havens (Cameron Diaz) para passar a bateria pela alfândega. June deseja apenas chegar o quanto antes para participar do casamento de sua irmã e, devido à pressa, consegue transferir seu voo para o mesmo de Miller. Só que no voo estão vários agentes destacados para eliminar Miller e recuperar a bateria, a qualquer custo.",
     "duration": 109,
@@ -22,11 +230,11 @@
   {
     "id": 725201,
     "title": "Agente Oculto",
-    "releaseDate": "2022-07-22",
+    "releaseDate": "2022-07-13",
     "posterPath": "/1f10KUKW7KyNt8bF8NHmwbBQ9fs.jpg",
     "overview": "Um agente oculto da CIA descobre segredos comprometedores da agência e é caçado mundo afora por um dissidente sociopata que coloca sua cabeça a prêmio.",
     "duration": 129,
-    "rating": 6.942,
+    "rating": 6.939,
     "genres": [
       {
         "id": 28,
@@ -42,11 +250,11 @@
   {
     "id": 190859,
     "title": "Sniper Americano",
-    "releaseDate": "2015-02-19",
+    "releaseDate": "2014-12-25",
     "posterPath": "/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg",
     "overview": "Chris Kyle é um atirador de elite das forças especiais da marinha dos Estados Unidos. Durante a Guerra do Iraque, sua missão é proteger seus companheiros e seu dever faz dele um dos maiores atiradores da história norte-americana. Sua precisão salva inúmeras vidas, mas também o torna um alvo preferencial. Quando Kyle finalmente volta para casa, ele descobre que não tem como deixar a guerra para trás.",
     "duration": 132,
-    "rating": 7.4,
+    "rating": 7.42,
     "genres": [
       {
         "id": 10752,
@@ -62,11 +270,11 @@
   {
     "id": 2048,
     "title": "Eu, Robô",
-    "releaseDate": "2004-08-06",
+    "releaseDate": "2004-07-15",
     "posterPath": "/lpuBgSGqq65pA3F2wzZdtMzKqHh.jpg",
     "overview": "Em 2035, é comum robôs serem usados como empregados e assistentes dos humanos. Para manter a ordem , esses robôs possuem um código de programação que impede a violência contra humanos, a Lei dos Robóticos. Quando Dr. Miles aparece morto e o principal suspeito é justamente um robô, acredita-se na possibilidade de que os robôs tenham encontrado um meio de desativar a Lei dos Robóticos.",
     "duration": 114,
-    "rating": 6.955,
+    "rating": 6.956,
     "genres": [
       {
         "id": 28,
@@ -82,11 +290,11 @@
   {
     "id": 541671,
     "title": "Bailarina - Do Universo de John Wick",
-    "releaseDate": "2025-06-05",
+    "releaseDate": "2025-06-04",
     "posterPath": "/by5hjYJp3OJ8GW118kPeURp1rFo.jpg",
-    "overview": "Bailarina  se passa durante os eventos de ‘John Wick 3: Parabellum‘ e acompanha Eve Macarro (Ana de Armas), que está começando seu treinamento nas tradições da organização Ruska Roma para se tornar uma assassina que buscará vingança contra aqueles que destruíram sua família.  O longa ainda conta com Anjelica Huston, Gabriel Byrne, Lance Reddick, Catalina Sandino Moreno e Norman Reedus no elenco, com participações de Ian McShane e Keanu Reeves.",
+    "overview": "Bailarina  se passa durante os eventos de ‘John Wick 3: Parabellum‘ e acompanha Eve Macarro, que está começando seu treinamento nas tradições da organização Ruska Roma para se tornar uma assassina que buscará vingança contra aqueles que destruíram sua família.",
     "duration": 125,
-    "rating": 7.475,
+    "rating": 7.4,
     "genres": [
       {
         "id": 28,
@@ -106,11 +314,11 @@
   {
     "id": 18487,
     "title": "O Sequestro do Metrô 1 2 3",
-    "releaseDate": "2009-09-04",
+    "releaseDate": "2009-06-10",
     "posterPath": "/bFU7CYHAaiOYN7nLCRgw60fIkJR.jpg",
     "overview": "Walter Garber é um executivo da companhia de metrô da cidade de Nova York que, devido a uma suspeita de suborno, foi rebaixado para a função de coordenador de tráfego. Quando um dos trens do metrô, o Pelham 1 2 3, é sequestrado por um misterioso grupo, é ele quem mantém contato com Ryder, líder dos sequestradores. Ryder exige que a prefeitura lhe pague US$ 10 milhões em uma hora, caso contrário matará um refém a cada minuto extra. A polícia envia à sede do metrô o negociador Camonetti, mas Ryder exige que Garber continue na função.",
     "duration": 106,
-    "rating": 6.35,
+    "rating": 6.353,
     "genres": [
       {
         "id": 80,
@@ -130,7 +338,7 @@
   {
     "id": 49017,
     "title": "Dracula: A História Nunca Contada",
-    "releaseDate": "2014-10-23",
+    "releaseDate": "2014-10-01",
     "posterPath": "/t8bA9xbOtqRaR8KwvzWlWwbvZvI.jpg",
     "overview": "Os habitantes da Transilvânia sempre foram inimigos dos turcos, com quem tiveram batalhas épicas. Para evitar que sua população fosse massacrada, o rei local aceitou entregar aos turcos centenas de crianças. Entre elas estava seu próprio filho, Vlad Tepes (Luke Evans), que aprendeu com os turcos a arte de guerrear. Logo Vlad ganhou fama pela ferocidade nas batalhas e também por empalar os derrotados. De volta à Transilvânia, onde é nomeado príncipe, ele governa em paz por 10 anos. Só que o rei Mehmed (Dominic Cooper) mais uma vez exige que 100 crianças sejam entregues aos turcos. Vlad se recusa e, com isso, inicia uma nova guerra. Para vencê-la, ele recorre a um ser das trevas (Charles Dance) que vive pela região. Após beber o sangue dele, Vlad se torna um vampiro e ganha poderes sobrehumanos.",
     "duration": 92,
@@ -154,7 +362,7 @@
   {
     "id": 399361,
     "title": "Operação Fronteira",
-    "releaseDate": "2019-03-13",
+    "releaseDate": "2019-03-06",
     "posterPath": "/smz1j5GJtFm9PuBUYvQszVoGR4.jpg",
     "overview": "A lealdade entre eles é colocada à prova quando cinco ex-militares se reúnem para roubar a fortuna de um chefão das drogas com consequências totalmente inesperadas.",
     "duration": 125,
@@ -180,13 +388,13 @@
     "link": "https://drive.google.com/file/d/1uKWSShOLv0UegDxr86URITeWN5gfSAvL/preview?usp=drivesdk"
   },
   {
-    "id": 136400,
-    "title": "Dose Dupla",
-    "releaseDate": "2013-09-13",
-    "posterPath": "/u5X9qjUfIZDmlVJXJ7xJVyyHZFa.jpg",
-    "overview": "Bobby e Stig são dois agentes à paisana escalados para roubar um banco que serve de fachada para Máfia. O detalhe é que um não sabe da real identidade do outro. Quando eles descobrem, o mandande da tarefa demite ambos, deixando a dupla a mercê dos bandidos.",
-    "duration": 109,
-    "rating": 6.538,
+    "id": 2620,
+    "title": "Armados e Perigosos",
+    "releaseDate": "1986-08-15",
+    "posterPath": "/uD2MrzVUYmG9kv6ka31on6vjQGu.jpg",
+    "overview": "John Candy e Engene Levy entram no mundo da segurança privada nesta fabulosa comédia de acção. Mas, infelizmente, entram sempre na direcção errada! Quando Candy, um polícia desastrado e Levy, um advogado inepto, perdem os seus empregos, acabam por se juntar à Agência de Segurança Guard Dog. Após um treino \"intensivo\" em manuseamento de armas de fogo (duas horas), estão aptos para a acção. Mas nem mesmo como agentes de segurança eles conseguem actuar como deve ser e os assaltos sucedem-se à frente do seu nariz! A certa altura percebem que os roubos não são mera coincidência e que a sua empresa está em apuros com o truculento presidente do sindicato das empresas de segurança (Robert Loggia, \"O Fio do Suspeito\"). Desejosos de apanhar os patifes, Candy e Levy tornam-se espiões e numa louca perseguição de carros transformam um golpe de milhares de dólares num autêntico carnaval! Quando o pó finalmente assenta, Candy e Levy saem vitoriosos, como a hilariantes dupla de polícias.",
+    "duration": 88,
+    "rating": 5.664,
     "genres": [
       {
         "id": 28,
@@ -206,11 +414,11 @@
   {
     "id": 696506,
     "title": "Mickey 17",
-    "releaseDate": "2025-03-06",
+    "releaseDate": "2025-02-28",
     "posterPath": "/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg",
     "overview": "Mickey faz parte de um programa espacial de colonização e sempre é enviado para missões perigosas, quase suicidas. Se morrer, ele é clonado e boa parte de suas memórias são recuperadas. Mas, após seis mortes, ele começa a entender o porquê de seu cargo nunca ter sido ocupado antes.",
     "duration": 136,
-    "rating": 6.885,
+    "rating": 6.873,
     "genres": [
       {
         "id": 878,
@@ -230,11 +438,11 @@
   {
     "id": 127585,
     "title": "X-Men: Dias de um Futuro Esquecido",
-    "releaseDate": "2014-05-22",
+    "releaseDate": "2014-05-15",
     "posterPath": "/s83Vwn9FtrofNmFiie7SXVKpXa5.jpg",
     "overview": "O conjunto definitivo dos X-Men luta uma guerra pela sobrevivência da espécie em dois períodos de tempo enquanto unem forças com seus eus mais jovens em uma batalha épica que deve mudar o passado – para salvar nosso futuro.",
     "duration": 131,
-    "rating": 7.5,
+    "rating": 7.527,
     "genres": [
       {
         "id": 28,
@@ -254,7 +462,7 @@
   {
     "id": 9257,
     "title": "S.W.A.T.: Comando Especial",
-    "releaseDate": "2003-11-28",
+    "releaseDate": "2003-08-08",
     "posterPath": "/dmhNSdqp9guZwmDktqvfJZ5DVjt.jpg",
     "overview": "Um importante traficante de drogas precisa ser transferido de Los Angeles para outra cidade, onde ficará em uma prisão federal. Uma divisão da S.W.A.T. é encarregada de realizar o transporte, porém a situação se complica quando a oferta do traficante de pagar US$ 100 milhões a quem libertá-lo se torna pública.",
     "duration": 117,
@@ -278,11 +486,11 @@
   {
     "id": 22,
     "title": "Piratas do Caribe: A Maldição do Pérola Negra",
-    "releaseDate": "2003-08-29",
+    "releaseDate": "2003-07-09",
     "posterPath": "/xsAlxvMCRzyreLxdZL1dOUSbonV.jpg",
     "overview": "O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em direção à misteriosa Ilha da Morte, tentando impedir que os piratas-esqueleto derramem o sangue de Elizabeth para desfazer a maldição que os assola.",
     "duration": 143,
-    "rating": 7.811,
+    "rating": 7.812,
     "genres": [
       {
         "id": 12,
@@ -302,11 +510,11 @@
   {
     "id": 278924,
     "title": "Assassino a Preço Fixo 2 - A Ressurreição",
-    "releaseDate": "2016-10-06",
+    "releaseDate": "2016-08-25",
     "posterPath": "/uNdYyWMMpEHWsMALjko1QCpAZVM.jpg",
     "overview": "Arthur Bishop é obrigado a reativar seu lado criminoso quando o amor de sua vida é sequestrado. Na mão do inimigo, ele é forçado a viajar pelo mundo para completar três impossíveis assassinatos e fazer o que sabe melhor: fingir que foram acidentes.",
     "duration": 99,
-    "rating": 6.024,
+    "rating": 6.023,
     "genres": [
       {
         "id": 28,
@@ -326,11 +534,11 @@
   {
     "id": 343668,
     "title": "Kingsman: O Círculo Dourado",
-    "releaseDate": "2017-09-28",
+    "releaseDate": "2017-09-20",
     "posterPath": "/qo7MKvaaow436wqwYlPbq5zNhqM.jpg",
     "overview": "Um grandioso ataque destrói o quartel-general Kingsman, obrigando Eggsy, Merlin e cia a unirem forças com o equivalente estadunidense da agência, os Statesman. Britânicos e norte-americanos ignoram as diferenças em defesa do mundo, ameaçado pelos planos da vilã Poppy.",
     "duration": 141,
-    "rating": 7,
+    "rating": 6.955,
     "genres": [
       {
         "id": 28,
@@ -354,7 +562,7 @@
   {
     "id": 80274,
     "title": "Ender's Game: O Jogo do Exterminador",
-    "releaseDate": "2013-12-20",
+    "releaseDate": "2013-10-24",
     "posterPath": "/uy7oMawvnKCTQApdced7GYiQ6V5.jpg",
     "overview": "Para impedir um novo ataque da força alienígena que quase acabou com a raça humana, o jovem Ender Wiggin é recrutado pelo corpo militar internacional. Ele treina para se transformar no melhor jogador, e sua missão é acabar com a guerra.",
     "duration": 115,
@@ -378,11 +586,11 @@
   {
     "id": 44833,
     "title": "Battleship: A Batalha dos Mares",
-    "releaseDate": "2012-05-11",
+    "releaseDate": "2012-04-11",
     "posterPath": "/a33ODXEpYK6hBUhajrCGphxscWk.jpg",
     "overview": "A equipe comandada pelo almirante Shane está a bordo do navio USS John Paul Jones. Em alto mar, eles se deparam com uma ameça alienígena. Para defender o planeta, eles precisam unir forças com a tripulação de outro navio e também com os cientistas comandados por Cal Zapata.",
     "duration": 131,
-    "rating": 5.87,
+    "rating": 5.873,
     "genres": [
       {
         "id": 53,
@@ -406,11 +614,11 @@
   {
     "id": 36557,
     "title": "007 Cassino Royale",
-    "releaseDate": "2006-12-15",
+    "releaseDate": "2006-11-14",
     "posterPath": "/7b3qmLlvm2lvJ2gxsKQ42S3RTKR.jpg",
     "overview": "Depois de obter o status 00 e uma licença para matar, o agente secreto James Bond parte em sua primeira missão como 007. Bond precisa derrotar um banqueiro privado que financia terroristas em um jogo de pôquer de alto risco no Casino Royale, Montenegro.",
     "duration": 144,
-    "rating": 7.6,
+    "rating": 7.564,
     "genres": [
       {
         "id": 12,
@@ -430,11 +638,11 @@
   {
     "id": 206647,
     "title": "007 Contra Spectre",
-    "releaseDate": "2015-11-05",
+    "releaseDate": "2015-10-26",
     "posterPath": "/7qUy7podv41jcj0tOvJNwh6700A.jpg",
     "overview": "James Bond chega à Cidade do México e está pronto para eliminar Marco Sciarra sem que o chef M saiba da missão. O caso leva à suspensão temporária do agente, que passa a ser constantemente vigiado pelo governo britânico graças a uma tecnologia implantada em seu corpo por Q. Na tentativa de despistar os inimigos e até mesmo alguns de seus parceiros de trabalho, ele se responsabiliza por ajudar a filha de um desafeto. Toda a situação o leva ao centro de uma temida organização denominada Spectre.",
     "duration": 148,
-    "rating": 6.6,
+    "rating": 6.56,
     "genres": [
       {
         "id": 28,
@@ -454,11 +662,11 @@
   {
     "id": 49040,
     "title": "O Legado Bourne",
-    "releaseDate": "2012-09-07",
+    "releaseDate": "2012-08-08",
     "posterPath": "/7O6OtPHpTMGnu9PEyFjrxVTyOHT.jpg",
     "overview": "Eric Byer é encarregado de apagar os rastros que possam incriminar o governo em projetos sigilosos. Um deles é o Outcome, projeto que pretende suprimir a dor e aumentar a sensibilidade, inteligência e força dos agentes por meio de remédios. Com o fim do Outcome, os agente passam a ser eliminados a mando do próprio governo. No entanto, Aaron Cross consegue escapar e vai à casa da Dra. Martha Shearing atrás de respostas. Juntos, eles precisam sobreviver enquanto Aaron sofre da abstinência forçada.",
     "duration": 135,
-    "rating": 6.2,
+    "rating": 6.235,
     "genres": [
       {
         "id": 28,
@@ -474,11 +682,11 @@
   {
     "id": 2502,
     "title": "A Supremacia Bourne",
-    "releaseDate": "2004-09-24",
+    "releaseDate": "2004-07-23",
     "posterPath": "/h8Rr4ZMeSTNbCpgK5CNV3SZmFjA.jpg",
     "overview": "Jason Bourne está vivendo na Índia quando é enquadrado por um agente russo, Kirill, pelo roubo de milhões da CIA. Kirill começa a perseguir Bourne com a intenção de assassiná-lo, mas, por engano, mata a namorada de Bourne, Marie. Jurando vingança, Bourne se propõe a provar sua inocência e trazer os culpados à justiça.",
     "duration": 108,
-    "rating": 7.324,
+    "rating": 7.323,
     "genres": [
       {
         "id": 28,
@@ -498,7 +706,7 @@
   {
     "id": 207703,
     "title": "Kingsman: Serviço Secreto",
-    "releaseDate": "2015-02-12",
+    "releaseDate": "2015-01-24",
     "posterPath": "/okY7RGWpcIKAMzwhN4EgKMrmZQU.jpg",
     "overview": "Eggsy é um jovem com problemas de disciplina que parece perto de se tornar um criminoso. Determinado dia, ele entra em contato com Harry, que lhe apresenta à agência de espionagem Kingsman. O jovem se une a um time de recrutas em busca de uma vaga na agência. Ao mesmo tempo, Harry tenta impedir a ascensão do vilão Valentine.",
     "duration": 129,
@@ -526,11 +734,11 @@
   {
     "id": 9739,
     "title": "O Demolidor",
-    "releaseDate": "1994-02-04",
+    "releaseDate": "1993-10-08",
     "posterPath": "/2BjAYQNwmdIZF6XQQ2rLOrios1Q.jpg",
     "overview": "O policial John Spartan e o violento bandido Simon Phoenix são condenados a um encarceramento criogênico conhecido como CryoPrison. Quando Spartan é finalmente descongelado 36 anos depois, já é 2032 e Los Angeles é agora uma utopia pacifista chamada San Angeles (junção de Los Angeles com San Francisco). Porém com Phoenix novamente à solta, Spartan deve colaborar com uma policial, Lenina, para apreender o assassino.",
     "duration": 115,
-    "rating": 6.7,
+    "rating": 6.74,
     "genres": [
       {
         "id": 80,
@@ -550,11 +758,11 @@
   {
     "id": 9387,
     "title": "Conan, o Bárbaro",
-    "releaseDate": "1982-07-09",
+    "releaseDate": "1982-04-02",
     "posterPath": "/7pXoGVgYSLQpc4N3fGBcDzJHiL.jpg",
     "overview": "Há milhares de anos, Thulsa Doom, um demoníaco feiticeiro, comanda um ataque em uma aldeia por motivos até hoje não revelados, que poderia ser simplesmente pelo prazer de matar ou para descobrir o segredo do aço, que era guardado pelos moradores desta aldeia. Conan, um cimério, vê seus pais serem mortos na sua frente e seu povo ser massacrado, sendo que ele, ainda criança, é levado para um campo de escravos. Os anos passam e ele desenvolve uma enorme força física, o que faz Conan se tornar gladiador. Ele ainda se mantém determinado a vingar a morte dos pais e quando é libertado tenta alcançar seu objetivo. Conan descobre que Thulsa Doom lidera o misterioso Culto da Serpente e, tentando se aproximar do feiticeiro, faz amizade com dois ladrões, Valéria e Subotai. Ao trio é prometida uma vultosa recompensa pelo rei Osric, que quer que o trio de guerreiros resgate sua filha, que se tornou uma seguidora de Thulsa Doom.",
     "duration": 129,
-    "rating": 6.8,
+    "rating": 6.813,
     "genres": [
       {
         "id": 12,
@@ -594,11 +802,11 @@
   {
     "id": 1089,
     "title": "Caçadores de Emoção",
-    "releaseDate": "1991-09-19",
+    "releaseDate": "1991-07-12",
     "posterPath": "/rf6yJ3Z4hXaDJvs8NX0BTHN5fp8.jpg",
     "overview": "Após uma série de assaltos a bancos bizarros no sul da Califórnia, com os bandidos usando máscaras de vários ex-presidentes, o agente federal Johnny Utah se infiltra na gangue suspeita de ter cometido os crimes. O grupo de surfistas, liderado pelo carismático Bodhi, é viciado na adrenalina do roubo. Porém, Utah se apaixona por Tyler, uma das integrantes do grupo, e isso complica o seu senso de dever.",
     "duration": 122,
-    "rating": 7.2,
+    "rating": 7.159,
     "genres": [
       {
         "id": 28,
@@ -618,11 +826,11 @@
   {
     "id": 14869,
     "title": "G.I. Joe: A Origem de Cobra",
-    "releaseDate": "2009-08-07",
+    "releaseDate": "2009-08-03",
     "posterPath": "/gS2bNL3LTUVCLmTNhyIamBQa0eS.jpg",
     "overview": "Quando tudo parece falhar... Eles não falham! Eles são a equipe G.I. Joe, uma força de elite supersecreta com os melhores agentes de todo o mundo. Depois que uma arma secreta de alta tecnologia é roubada pela misteriosa e diabólica organização Cobra, os G. I. Joes correm contra o tempo para impedir Cobra de usar a arma e mergulhar o mundo no caos.",
     "duration": 113,
-    "rating": 5.784,
+    "rating": 5.785,
     "genres": [
       {
         "id": 12,
@@ -646,11 +854,11 @@
   {
     "id": 137094,
     "title": "Operação Sombra: Jack Ryan",
-    "releaseDate": "2014-01-24",
+    "releaseDate": "2014-01-15",
     "posterPath": "/r0Z5gDSgS1h6bzdt7L4psUTtSzn.jpg",
     "overview": "O agente Jack Ryan é mandado a Moscou para trabalhar como consultor financeiro de um bilionário. O empregador, na verdade, arma para que Ryan leve a culpa por um ataque terrorista ao sistema financeiro dos EUA. O herói precisa, então, correr para limpar seu nome e salvar sua esposa, que foi pega como refém do bilionário.",
     "duration": 105,
-    "rating": 6.117,
+    "rating": 6.118,
     "genres": [
       {
         "id": 28,
@@ -670,11 +878,11 @@
   {
     "id": 370172,
     "title": "007: Sem Tempo para Morrer",
-    "releaseDate": "2021-09-30",
+    "releaseDate": "2021-09-29",
     "posterPath": "/luE0KG1rWfUptbgNtlNtL5sihyd.jpg",
     "overview": "Bond deixou o serviço ativo e está desfrutando de uma vida tranquila na Jamaica. Sua paz é interrompida quando o seu velho amigo Felix Leiter, da CIA, aparece pedindo sua ajuda. A missão de resgatar um cientista sequestrado acaba sendo muito mais difícil do que o esperado, deixando Bond no caminho de um vilão misterioso e armado com uma nova tecnologia perigosa.",
     "duration": 163,
-    "rating": 7.4,
+    "rating": 7.359,
     "genres": [
       {
         "id": 28,
@@ -694,11 +902,11 @@
   {
     "id": 1126166,
     "title": "Ameaça no Ar",
-    "releaseDate": "2025-01-23",
+    "releaseDate": "2025-01-22",
     "posterPath": "/bXFAQ5fM3BkFb1y6Gz85m4UmwfP.jpg",
     "overview": "Um piloto de avião transporta um agente federal e um fugitivo para julgamento através das montanhas do Alasca. A tensão aumenta quando verdades são reveladas e ninguém a bordo parecem ser quem realmente são.",
     "duration": 91,
-    "rating": 6,
+    "rating": 6.022,
     "genres": [
       {
         "id": 28,
@@ -714,11 +922,11 @@
   {
     "id": 993710,
     "title": "De Volta à Ação",
-    "releaseDate": "2025-01-17",
+    "releaseDate": "2025-01-15",
     "posterPath": "/m4gzzzeYRmrwasrBdJmjhBmjS3U.jpg",
     "overview": "Quinze anos depois de abandonar a CIA para formar uma família, os ex-agentes de elite Matt e Emily voltam ao mundo da espionagem ao terem seus disfarces revelados.",
     "duration": 114,
-    "rating": 6.5,
+    "rating": 6.462,
     "genres": [
       {
         "id": 28,
@@ -734,11 +942,11 @@
   {
     "id": 449443,
     "title": "Covil de Ladrões",
-    "releaseDate": "2018-03-08",
+    "releaseDate": "2018-01-18",
     "posterPath": "/8SNJ1Y0j6ARfwl1h9ek1XixXz0G.jpg",
     "overview": "Em Los Angeles, uma saga de crimes coloca em intersecção a vida de dois grupos: a unidade de elite do departamento de polícia local e a equipe de assaltantes de banco mais bem sucedida do estado. Os criminosos planejam um roubo que aparentemente é impossível, num banco localizado no centro da cidade",
     "duration": 140,
-    "rating": 6.851,
+    "rating": 6.9,
     "genres": [
       {
         "id": 28,
@@ -758,11 +966,11 @@
   {
     "id": 539972,
     "title": "Kraven: O Caçador",
-    "releaseDate": "2024-12-12",
+    "releaseDate": "2024-12-11",
     "posterPath": "/pWvQsP9o1MQ4vQNjpL9QeYFXKOs.jpg",
     "overview": "Sergei Kravinoff é um grande caçador, que toma um soro mágico que lhe dá habilidades sobre-humanas e uma vida mais longa.",
     "duration": 127,
-    "rating": 6.526,
+    "rating": 6.521,
     "genres": [
       {
         "id": 28,
@@ -782,11 +990,11 @@
   {
     "id": 9620,
     "title": "O Pagamento",
-    "releaseDate": "2004-03-12",
+    "releaseDate": "2003-12-25",
     "posterPath": "/uVPVt6r9KvUmIR81nVHVJ3fKuhW.jpg",
     "overview": "Michael Jennings é um engenheiro de computação contratado por corporações para descobrir os segredos de empresas concorrentes. Quando ele finaliza um projeto, sua memória é apagada para evitar o vazamento de informações secretas. Porém, quando termina seu trabalho mais recente, ele acorda do processo de eliminação de memória apenas com um envelope na mão, contendo vários objetos, e começa a ser perseguido pela polícia.",
     "duration": 119,
-    "rating": 6.2,
+    "rating": 6.208,
     "genres": [
       {
         "id": 28,
@@ -814,11 +1022,11 @@
   {
     "id": 507086,
     "title": "Jurassic World: Domínio",
-    "releaseDate": "2022-06-02",
+    "releaseDate": "2022-06-01",
     "posterPath": "/w6Jz1AgjscqBuS8qXBd0wUHz5zC.jpg",
     "overview": "Quatro anos após a destruição da Ilha Nublar, os dinossauros agora vivem – e caçam – ao lado de humanos em todo o mundo. Esse frágil equilíbrio remodelará o futuro e determinará, de uma vez por todas, se os seres humanos continuarão sendo os principais predadores em um planeta que agora compartilham com as criaturas mais temíveis da história.",
     "duration": 147,
-    "rating": 6.6,
+    "rating": 6.638,
     "genres": [
       {
         "id": 12,
@@ -838,11 +1046,11 @@
   {
     "id": 100402,
     "title": "Capitão América 2: O Soldado Invernal",
-    "releaseDate": "2014-04-10",
+    "releaseDate": "2014-03-20",
     "posterPath": "/88iNcBQl9eK6DWIlek9NG2b5fLX.jpg",
     "overview": "Após os eventos catastróficos em Nova York com Os Vingadores, Steve Rogers segue tentando se ajustar ao mundo moderno. Porém, quando um colega da agência S.H.I.E.L.D. é atacado, Steve se vê preso em uma rede de intrigas que ameaça colocar o mundo em risco. Em parceria com a Viúva Negra e Falcão, seu novo aliado, o Capitão América tem que enfrentar um misterioso e inesperado inimigo, o Soldado Invernal.",
     "duration": 136,
-    "rating": 7.7,
+    "rating": 7.655,
     "genres": [
       {
         "id": 28,
@@ -866,7 +1074,7 @@
     "posterPath": "/11MJy6lkt7yTEIowEPIkaK4B7lM.jpg",
     "overview": "Depois de viajar no tempo e ir parar em 2022 sem querer, o piloto de combate Adam Reed se une à sua versão de 12 anos de idade para salvar o futuro.",
     "duration": 106,
-    "rating": 7.015,
+    "rating": 7.013,
     "genres": [
       {
         "id": 12,
@@ -890,11 +1098,11 @@
   {
     "id": 1094138,
     "title": "Jackpot: Loteria Mortal!",
-    "releaseDate": "2024-08-15",
+    "releaseDate": "2024-08-13",
     "posterPath": "/elzEsnRrrhvsPgY0xVbWzhF9mun.jpg",
     "overview": "Jackpot: Loteria Mortal conta a história da vencedora da loteria criada recentemente na Califórnia, Katie Kim (Awkafina) e sua luta para sobrevir e reivindicar seu bilhete premiado com o apoio do Cassidy (John Cena), enquanto fogem do Louis Lewis (Simu Liu) e dos caçadores do prêmio.",
     "duration": 107,
-    "rating": 6.4,
+    "rating": 6.408,
     "genres": [
       {
         "id": 35,
@@ -910,11 +1118,11 @@
   {
     "id": 718821,
     "title": "Twisters",
-    "releaseDate": "2024-07-11",
+    "releaseDate": "2024-07-10",
     "posterPath": "/6RpWnpEL8sXnZgzhEmnT2SLhHL7.jpg",
     "overview": "Kate Cooper é uma ex-caçadora de tempestades assombrada por um encontro devastador com um tornado durante seus anos de faculdade, que agora estuda padrões de tempestades nas telas em segurança na cidade de Nova York. Ela é atraída de volta às planícies por seu amigo, Javi, para testar um novo sistema revolucionário de rastreamento. Lá, ela cruza seu caminho com Tyler Owens, o carismático e imprudente ícone das redes sociais que se diverte postando suas aventuras de caça a tempestades com sua equipe barulhenta, quanto mais perigoso melhor. À medida que a temporada de tempestades se intensifica, fenômenos aterrorizantes nunca antes vistos são desencadeados e Kate, Tyler e suas equipes concorrentes se encontram diretamente no caminho de múltiplos sistemas de tempestades convergindo sobre o centro de Oklahoma na luta de suas vidas.",
     "duration": 133,
-    "rating": 6.823,
+    "rating": 6.8,
     "genres": [
       {
         "id": 28,
@@ -930,11 +1138,11 @@
   {
     "id": 704239,
     "title": "A Liga",
-    "releaseDate": "2024-08-16",
+    "releaseDate": "2024-08-15",
     "posterPath": "/epzHc7RNjgpj9e2IVH88g7cr7DG.jpg",
     "overview": "Recrutado para uma missão inesperada, um cara comum que trabalha como empreiteiro vira espião.",
     "duration": 109,
-    "rating": 6.1,
+    "rating": 6.13,
     "genres": [
       {
         "id": 28,
@@ -950,7 +1158,7 @@
   {
     "id": 11001,
     "title": "Um Tira Muito Suspeito",
-    "releaseDate": "1999-11-25",
+    "releaseDate": "1999-09-17",
     "posterPath": "/jpMqeCmxR4G4DfQUQftBvgrU01s.jpg",
     "overview": "Antes de ser preso, o ladrão de joias Logan esconde um valioso diamante num prédio em construção. Agora ele está livre, mas o prédio virou um distrito policial. Com seus conhecimentos criminais, Logan se faz passar por tira, tem uma meteórica carreira na polícia e se mete numa confusão.",
     "duration": 93,
@@ -974,11 +1182,11 @@
   {
     "id": 503736,
     "title": "Army of the Dead: Invasão em Las Vegas",
-    "releaseDate": "2021-05-21",
+    "releaseDate": "2021-05-14",
     "posterPath": "/sdVbjJ33SQO2caG6DkYKRhSyrja.jpg",
     "overview": "Após um surto de zumbis em Las Vegas, nos Estados Unidos, um grupo de mercenários faz uma aposta final, aventurando-se na zona de quarentena para tentar realizar o maior assalto de todos os tempos.",
     "duration": 148,
-    "rating": 6.228,
+    "rating": 6.23,
     "genres": [
       {
         "id": 80,
@@ -998,11 +1206,11 @@
   {
     "id": 7551,
     "title": "Déjà Vu",
-    "releaseDate": "2007-01-19",
+    "releaseDate": "2006-11-22",
     "posterPath": "/siODmMjyejgygzGWNK3rzROCeBL.jpg",
     "overview": "O agente federal Doug Carlin viaja para investigar a causa de uma explosão fatal que ocorreu em Nova Orleans. Ele descobre, então, um meio de viajar no tempo e, consequentemente, evitar que a explosão ocorra.",
     "duration": 126,
-    "rating": 6.869,
+    "rating": 6.87,
     "genres": [
       {
         "id": 28,
@@ -1022,11 +1230,11 @@
   {
     "id": 2024,
     "title": "O Patriota",
-    "releaseDate": "2000-07-21",
+    "releaseDate": "2000-06-28",
     "posterPath": "/oe26GVJTIEFLW8WjGMj1K0MbWUJ.jpg",
     "overview": "Benjamin Martin é um veterano de guerra que renunciou às armas e decidiu viver em paz com sua família. Mas, quando os ingleses trazerem a Guerra da Independência até o seu quintal, Benjamin não vê outra saída a não ser pegar nas armas novamente, desta vez acompanhado de seu filho idealista, liderando uma rebelião contra o implacável e equipado exército britânico. No processo, ele descobre que só pode proteger sua família lutando pela liberdade da jovem nação.",
     "duration": 165,
-    "rating": 7.2,
+    "rating": 7.183,
     "genres": [
       {
         "id": 18,
@@ -1050,11 +1258,11 @@
   {
     "id": 245891,
     "title": "John Wick - De Volta ao Jogo",
-    "releaseDate": "2014-11-27",
+    "releaseDate": "2014-10-22",
     "posterPath": "/4A9KmccvMqJA8MQzIes0G9Uobh5.jpg",
     "overview": "John Wick é um lendário assassino de aluguel aposentado, lidando com o luto após perder o grande amor de sua vida. Quando um gângster invade sua casa, mata seu cachorro e rouba seu carro, ele é forçado a voltar à ativa e inicia sua vingança.",
     "duration": 101,
-    "rating": 7.5,
+    "rating": 7.452,
     "genres": [
       {
         "id": 28,
@@ -1070,11 +1278,11 @@
   {
     "id": 324552,
     "title": "John Wick: Um Novo Dia para Matar",
-    "releaseDate": "2017-02-16",
-    "posterPath": "/k36UzsRQaY6E055cdYPdYbyREer.jpg",
+    "releaseDate": "2017-02-08",
+    "posterPath": "/kRAHy9CQnNT16vTvtJtu9pRgjEG.jpg",
     "overview": "O lendário John Wick é forçado a deixar a aposentadoria em função de um criminoso que conspira para tomar o controle de um clã de assassinos internacionais. Por causa de um pacto de sangue, John Wick viaja para Roma, com o objetivo de ajudar um velho amigo a derrubar a organização internacional secreta, perigosa e mortal de assassinos procurados em todo o mundo.",
     "duration": 122,
-    "rating": 7.337,
+    "rating": 7.338,
     "genres": [
       {
         "id": 28,
@@ -1094,11 +1302,11 @@
   {
     "id": 458156,
     "title": "John Wick 3: Parabellum",
-    "releaseDate": "2019-05-16",
+    "releaseDate": "2019-05-15",
     "posterPath": "/bE6XutmB6tcvzTHBx4JGJLlzouM.jpg",
     "overview": "Após assassinar o chefe da máfia Santino D'Antonio no Hotel Continental, John Wick passa a ser perseguido pelos membros da Alta Cúpula sob a recompensa de U$14 milhões. Agora, ele precisa unir forças com antigos parceiros que o ajudaram no passado enquanto luta por sua sobrevivência.",
     "duration": 132,
-    "rating": 7.4,
+    "rating": 7.444,
     "genres": [
       {
         "id": 28,
@@ -1118,11 +1326,11 @@
   {
     "id": 603692,
     "title": "John Wick 4: Baba Yaga",
-    "releaseDate": "2023-03-23",
+    "releaseDate": "2023-03-22",
     "posterPath": "/dHQEM7aqsvBQnPmjdyTgb5fUG5q.jpg",
     "overview": "Com o preço por sua cabeça cada vez maior, John Wick leva sua luta contra a alta mesa global enquanto procura os jogadores mais poderosos do submundo, de Nova York a Paris, de Osaka a Berlim.",
     "duration": 169,
-    "rating": 7.722,
+    "rating": 7.72,
     "genres": [
       {
         "id": 28,
@@ -1142,7 +1350,7 @@
   {
     "id": 58574,
     "title": "Sherlock Holmes: O Jogo de Sombras",
-    "releaseDate": "2012-01-13",
+    "releaseDate": "2011-11-22",
     "posterPath": "/g5GC3zmpzY25Gsx0yDaq6fRwwqz.jpg",
     "overview": "Watson está prestes a se casar com a sua amada Mary Morstan. Porém, a única coisa com que ele não contava era que seu amigo Holmes apareceria com uma nova teoria conspiratória de que o professor Moriarty estaria por trás de uma série de assassinatos.",
     "duration": 129,
@@ -1170,11 +1378,11 @@
   {
     "id": 10528,
     "title": "Sherlock Holmes",
-    "releaseDate": "2010-08-08",
+    "releaseDate": "2009-12-23",
     "posterPath": "/19ZNLpF6ibwcFIynGb65X3Z1bnL.jpg",
     "overview": "O excêntrico detetive consultor Sherlock Holmes e o doutor John Watson lutam para derrubar um novo inimigo e desvendar um plano mortal que poderia destruir a Inglaterra.",
     "duration": 129,
-    "rating": 7.215,
+    "rating": 7.216,
     "genres": [
       {
         "id": 28,
@@ -1198,11 +1406,11 @@
   {
     "id": 932420,
     "title": "Code 8: Renegados - Parte II",
-    "releaseDate": "2024-02-28",
+    "releaseDate": "2024-02-27",
     "posterPath": "/jwkzUuoTd4ISBNBMWPSp1qrVGNy.jpg",
     "overview": "Em uma cidade onde pessoas com superpoderes são vigiadas e oprimidas, um ex-criminoso se une a um traficante para proteger uma adolescente de um policial corrupto.",
     "duration": 100,
-    "rating": 6.4,
+    "rating": 6.353,
     "genres": [
       {
         "id": 878,
@@ -1222,11 +1430,11 @@
   {
     "id": 1621,
     "title": "Trocando as Bolas",
-    "releaseDate": "1984-04-12",
+    "releaseDate": "1983-06-07",
     "posterPath": "/tYyHmUzo6GT7qjG7OWqo0zsXcoJ.jpg",
     "overview": "O que pode acontecer quando um magnata de Wall Street encontra um esperto mendigo de rua? Esta é a história de um malandro que troca seu estilo de vida com a de um investidor grã-fino. Daí em diante, a diversão fica mais rica a cada minuto!",
     "duration": 117,
-    "rating": 7.227,
+    "rating": 7.228,
     "genres": [
       {
         "id": 35,
@@ -1238,11 +1446,11 @@
   {
     "id": 311324,
     "title": "A Grande Muralha",
-    "releaseDate": "2017-02-23",
+    "releaseDate": "2016-12-16",
     "posterPath": "/nCIZ40JJzaXeitNXSnlKGpc9cmT.jpg",
     "overview": "No século XV, William e Tovar são dois mercenários em busca de “pó negro” (pólvora). Depois de escaparem do ataque de uma criatura misteriosa, eles se encontram, acidentalmente, aos pés da Grande Muralha. Lá, eles acabam aprisionados pelos guerreiros chineses, que estão na iminência de sofrerem um ataque. Reza a lenda que, a cada 60 anos, uma horda de monstros tenta transpassar a barreira, para se alimentar dos humanos que vivem do outro lado.",
     "duration": 104,
-    "rating": 6.03,
+    "rating": 6.028,
     "genres": [
       {
         "id": 28,
@@ -1262,11 +1470,11 @@
   {
     "id": 9737,
     "title": "Os Bad Boys",
-    "releaseDate": "1995-07-07",
+    "releaseDate": "1995-04-07",
     "posterPath": "/8fkDLt6Fbr2yyBqt3MEwiumnsar.jpg",
     "overview": "Um carregamento de heroína confiscada avaliada em um milhão de dólares foi simplesmente roubado do depósito da polícia. O sumiço das dorgas pode destruir as carreiras dos detetives Mike Lawrey e Marcus Burnett e acabar com a divisão de narcóticos do Departamento de Polícia de Miami. Quando as investigações ameaçam os traficantes e eles raptam a única testemunha do caso – uma bela informante da polícia que se torna amiga dos Bad Boys – as coisas se tornam pessoais!",
     "duration": 119,
-    "rating": 6.822,
+    "rating": 6.823,
     "genres": [
       {
         "id": 28,
@@ -1290,11 +1498,11 @@
   {
     "id": 8961,
     "title": "Os Bad Boys II",
-    "releaseDate": "2003-09-19",
+    "releaseDate": "2003-07-18",
     "posterPath": "/owcyf6tip6K7ZhYJmb2pckvmmHU.jpg",
     "overview": "Os detetives da Narcóticos Marcus Burnett e Mike Lowrey foram designados para investigar a proliferação do ecstasy na cidade de Miami. As investigações os levam a um alvo maior, Johnny Tapia, um traficante cuja ambição de tomar conta do tráfico na cidade inicia uma verdadeira guerra entre quadrilhas. Em meio a esta situação, Lowrey passa a se interessar por Syd, irmã de Burnett, o que põe a amizade deles à prova.",
     "duration": 147,
-    "rating": 6.652,
+    "rating": 6.654,
     "genres": [
       {
         "id": 28,
@@ -1316,7 +1524,7 @@
     "title": "Guerra Civil",
     "releaseDate": "2010-04-27",
     "posterPath": "/pjOyMYk3bvSGtzgrwrUJp3wKMMk.jpg",
-    "overview": "Summer of 1982, a beach in the south of Portugal. Rui and his parents live closed in their worlds, blind to the failure that characterizes them as a family and condemns them to the malaise of survival.\r Rui will have school exams but he is only interested in music and in the exploration of imaginary worlds that he constantly sketches in drawings. Only Joana seems capable of pulling him out of his autism. The girl's vitality fascinates him.",
+    "overview": "",
     "duration": 90,
     "rating": 7,
     "genres": [
@@ -1330,7 +1538,7 @@
   {
     "id": 284054,
     "title": "Pantera Negra",
-    "releaseDate": "2018-02-15",
+    "releaseDate": "2018-02-13",
     "posterPath": "/ubXNpxL2ASSzY0f8Hxv08pOsV2L.jpg",
     "overview": "O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país.",
     "duration": 134,
@@ -1354,11 +1562,11 @@
   {
     "id": 76338,
     "title": "Thor: O Mundo Sombrio",
-    "releaseDate": "2013-11-01",
+    "releaseDate": "2013-10-30",
     "posterPath": "/9qdqXIx2neypuT1kWKCTI2vsO4q.jpg",
     "overview": "Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo.",
     "duration": 112,
-    "rating": 6.514,
+    "rating": 6.513,
     "genres": [
       {
         "id": 28,
@@ -1398,7 +1606,7 @@
     "posterPath": "/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg",
     "overview": "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela.",
     "duration": 131,
-    "rating": 7.6,
+    "rating": 7.584,
     "genres": [
       {
         "id": 28,
@@ -1418,11 +1626,11 @@
   {
     "id": 24428,
     "title": "Os Vingadores: The Avengers",
-    "releaseDate": "2012-04-27",
+    "releaseDate": "2012-04-25",
     "posterPath": "/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
     "overview": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
     "duration": 143,
-    "rating": 7.782,
+    "rating": 7.8,
     "genres": [
       {
         "id": 878,
@@ -1442,11 +1650,11 @@
   {
     "id": 335977,
     "title": "Indiana Jones e A Relíquia do Destino",
-    "releaseDate": "2023-06-29",
+    "releaseDate": "2023-06-25",
     "posterPath": "/v9hytHJF57wcrfgbMSSWWVRnqQx.jpg",
     "overview": "Encontrando-se em uma nova era, aproximando-se da aposentadoria, Indy luta para se encaixar em um mundo que parece tê-lo superado. Mas quando os tentáculos de um mal muito familiar retornam na forma de um antigo rival, Indy deve colocar seu chapéu e pegar seu chicote mais uma vez para garantir que um antigo e poderoso artefato não caia nas mãos erradas.",
     "duration": 144,
-    "rating": 6.546,
+    "rating": 6.547,
     "genres": [
       {
         "id": 12,
@@ -1462,7 +1670,7 @@
   {
     "id": 89,
     "title": "Indiana Jones e a Última Cruzada",
-    "releaseDate": "1989-06-22",
+    "releaseDate": "1989-05-24",
     "posterPath": "/9H79Cq97WwiY7FB51jPH65sX3hp.jpg",
     "overview": "O arqueólogo Indiana Jones tem acesso à um misterioso envelope que contém informações sobre a localização do lendário Santo Graal, o cálice que Jesus Cristo teria utilizado na Última Ceia. Quando seu pai, o professor Henry Jones, é sequestrado pelos nazistas, o aventureiro irá embarcar numa missão perigosa para salvá-lo e impedir que a relíquia sagrada caia em mãos erradas.",
     "duration": 127,
@@ -1486,7 +1694,7 @@
     "posterPath": "/eZpDX7wTxllhVxhc9Qy9xN4G2Nw.jpg",
     "overview": "Durante a Guerra Fria, Indiana Jones e o jovem Mutt buscam a Caveira de Cristal, um objeto místico de grande valor, mas logo percebem que não estão sozinhos. Soviéticos liderados pela cruel Irina Spalko também querem o objeto para tentar dominar o mundo através dele.",
     "duration": 122,
-    "rating": 6,
+    "rating": 6.015,
     "genres": [
       {
         "id": 12,
@@ -1506,7 +1714,7 @@
     "posterPath": "/k0zOx7m7oI6tYWXkvpJj2YQll1r.jpg",
     "overview": "Em 1935, o professor, arqueólogo e aventureiro Indiana Jones tem uma nova missão: resgatar as pedras roubadas por um feiticeiro e libertar crianças escravizadas. Para tanto, enfrenta os poderes mágicos e o fanatismo de um culto que sacrifica seres humanos.",
     "duration": 118,
-    "rating": 7.3,
+    "rating": 7.302,
     "genres": [
       {
         "id": 12,
@@ -1522,7 +1730,7 @@
   {
     "id": 85,
     "title": "Indiana Jones e os Caçadores da Arca Perdida",
-    "releaseDate": "1981-08-21",
+    "releaseDate": "1981-06-12",
     "posterPath": "/vPDnnfUAgLz7yWQVCK4gJAKFy0m.jpg",
     "overview": "Em 1936, o professor e arqueólogo Indiana Jones é contratado pelo governo para encontrar a Arca da Aliança, que segundo as escrituras bíblicas conteria \"Os Dez Mandamentos\" que Deus revelou a Moisés no Monte Horeb. Mas como a lenda diz que o exército que a possuir será invencível, Indiana Jones terá um adversário de peso na busca pela arca perdida: o regime nazista de Adolf Hitler.",
     "duration": 115,
@@ -1542,11 +1750,11 @@
   {
     "id": 299054,
     "title": "Os Mercenários 4",
-    "releaseDate": "2023-09-21",
+    "releaseDate": "2023-09-15",
     "posterPath": "/yH7750OmhoPcrTA9PZTHohDjpqP.jpg",
     "overview": "A equipe enfrenta um traficante de armas que comanda um enorme exército privado. Munidos com todas as armas inimagináveis, os Mercenários são a última linha de defesa do mundo.",
     "duration": 103,
-    "rating": 6.1,
+    "rating": 6.108,
     "genres": [
       {
         "id": 28,
@@ -1566,11 +1774,11 @@
   {
     "id": 9335,
     "title": "Carga Explosiva 2",
-    "releaseDate": "2005-10-21",
+    "releaseDate": "2005-08-03",
     "posterPath": "/4Vo1KYTe0LWakRxTwp3scw8Ti6u.jpg",
     "overview": "Frank Martin é um ex-agente das Forças Especiais que trabalha atualmente como transportador de itens valiosos. Frank atualmente trabalha para a poderosa família Billings, como favor a um amigo. Aos poucos ele fica próximo ao pequeno Jack Billings, de 6 anos, a quem leva e traz da escola. Quando Jack é sequestrado Frank é obrigado a mais uma vez pôr suas habilidades em ação, partindo em uma tentativa de resgate.",
     "duration": 88,
-    "rating": 6.312,
+    "rating": 6.314,
     "genres": [
       {
         "id": 28,
@@ -1590,11 +1798,11 @@
   {
     "id": 457332,
     "title": "Projeto Extração",
-    "releaseDate": "2023-07-28",
+    "releaseDate": "2023-07-06",
     "posterPath": "/t3vZkkM5G40pUJxUzkz69H777Hm.jpg",
     "overview": "Quando uma refinaria de petróleo administrada pela China é atacada em Mosul, no Iraque, um empreiteiro de segurança privada chinês é chamado para resgatar os trabalhadores do petróleo.  Ele descobre, no entanto, que o verdadeiro plano dos atacantes é roubar uma fortuna em petróleo e se une a um ex-fuzileiro naval americano para detê-los.",
     "duration": 102,
-    "rating": 6.9,
+    "rating": 6.919,
     "genres": [
       {
         "id": 28,
@@ -1614,11 +1822,11 @@
   {
     "id": 848538,
     "title": "Argylle: O Superespião",
-    "releaseDate": "2024-02-01",
+    "releaseDate": "2024-01-31",
     "posterPath": "/uD7M7cCgpt0Nlt8GgBP2NrvdT0h.jpg",
     "overview": "Quando os enredos dos romances de espionagem da reclusa autora Elly Conway começam a refletir as ações secretas de uma organização de espionagem da vida real, as noites tranquilas em casa tornam-se uma coisa do passado.  Acompanhada por seu gato Alfie e Aiden, um espião alérgico a gatos, Elly corre pelo mundo para ficar um passo à frente dos assassinos enquanto a linha entre o mundo fictício de Conway e o mundo real começa a se confundir.",
     "duration": 139,
-    "rating": 6.03,
+    "rating": 6.027,
     "genres": [
       {
         "id": 28,
@@ -1644,7 +1852,7 @@
     "title": "Deadpool: No Good Deed",
     "releaseDate": "2017-03-03",
     "posterPath": "/wlKU9yB0Q8nfPMakBcSBT0JGS7.jpg",
-    "overview": "Deadpool sees an opportunity to save the day, but it doesn't go entirely as planned.",
+    "overview": "",
     "duration": 4,
     "rating": 7.159,
     "genres": [
@@ -1666,11 +1874,11 @@
   {
     "id": 763285,
     "title": "Ambulância: Um Dia de Crime",
-    "releaseDate": "2022-03-24",
+    "releaseDate": "2022-03-16",
     "posterPath": "/k62v5oVhQ0e1sJWJ9nFpiTfcNoD.jpg",
     "overview": "O condecorado veterano Will Sharp, desesperado por dinheiro para cobrir as contas médicas de sua esposa, pede ajuda de uma pessoa que ele sabe que não deveria — seu irmão adotivo Danny. Um criminoso carismático, Danny oferece-lhe uma pontuação: o maior assalto a banco na história de Los Angeles: 32 milhões de dólares. Com a sobrevivência de sua esposa em jogo, Will não pode dizer não.",
     "duration": 136,
-    "rating": 6.649,
+    "rating": 6.6,
     "genres": [
       {
         "id": 53,
@@ -1690,7 +1898,7 @@
   {
     "id": 71679,
     "title": "Resident Evil 5: Retribuição",
-    "releaseDate": "2012-09-14",
+    "releaseDate": "2012-09-12",
     "posterPath": "/tMrLVjpLSvjtQ4Bd7v34SwqQ7bb.jpg",
     "overview": "O vírus-T fatal da Corporação Umbrella está se espalhando pelo mundo, transformando pessoas comuns em legiões de zumbis. Prestes à extinção, a raça humana só tem uma esperança: Alice. Ela tem uma missão, lutando pelas cidades e através de continentes, sempre dentro da principal instalação de pesquisa da Corporação Umbrella. Velhos amigos se tornam novos inimigos, enquanto ela batalha para se libertar e descobre que tudo em que acreditou pode nem ser verdade.",
     "duration": 95,
@@ -1714,11 +1922,11 @@
   {
     "id": 35791,
     "title": "Resident Evil 4: Recomeço",
-    "releaseDate": "2010-09-17",
+    "releaseDate": "2010-09-01",
     "posterPath": "/eLUc5to0p5LhbXJMXtgltg7P4g4.jpg",
     "overview": "Depois de atacar sozinha o forte da Umbrella, as habilidades sobre-humanas de Alice são neutralizados. Agora, fugindo dos zumbis criados pelo vírus T, Alice se reúne a Claire Redfield e a seu irmão, Chris. Juntos, eles se refugiam com outros sobreviventes numa prisão abandonada, onde um bando de zumbis selvagens se interpõem entre eles e a segurança de \"Arcadia\". Para fugir desses mutantes sedentos por sangue eles precisarão de um arsenal. Mas a fim de enfrentar Albert, Wesker e a Umbrella a luta pela sobrevivência escalará a um novo nível de perigo.",
     "duration": 97,
-    "rating": 6.1,
+    "rating": 6.067,
     "genres": [
       {
         "id": 28,
@@ -1742,11 +1950,11 @@
   {
     "id": 7737,
     "title": "Resident Evil 3: A Extinção",
-    "releaseDate": "2007-10-05",
+    "releaseDate": "2007-09-20",
     "posterPath": "/lKdzoUvMsriRrtfK6e5uw2XpXtn.jpg",
     "overview": "Las Vegas significa pura diversão sob o sol. Bem... pelo menos o sol ainda brilha por lá. A não ser em algumas áreas, que se parecem com o resto do deserto ou o resto de todo país, onde as pessoas que circulam são zumbis canibais: uma massa de mortos vivos aterrorizando a todos. A nova e melhorada Alice juntamente com a sua turma vai travar a batalha final contra o mal com um único objetivo: transformar os mortos vivos em mortos de verdade.",
     "duration": 94,
-    "rating": 6.3,
+    "rating": 6.309,
     "genres": [
       {
         "id": 27,
@@ -1766,11 +1974,11 @@
   {
     "id": 39254,
     "title": "Gigantes de Aço",
-    "releaseDate": "2011-10-21",
+    "releaseDate": "2011-09-28",
     "posterPath": "/pp74uUjwQTknGPqNrerj4FvU0ce.jpg",
     "overview": "Em um futuro próximo, as máquinas substituem os seres humanos no ringue. As lutas de boxe, nesse contexto, acontecem entre robôs de alta tecnologia e Charlie, um ex-lutador frustrado, não consegue se adaptar a isso. Quando tudo parece perdido, ele se une ao filho para construir um competidor imbatível.",
     "duration": 127,
-    "rating": 7.054,
+    "rating": 7.056,
     "genres": [
       {
         "id": 28,
@@ -1790,11 +1998,11 @@
   {
     "id": 1576,
     "title": "Resident Evil: O Hóspede Maldito",
-    "releaseDate": "2002-05-30",
+    "releaseDate": "2002-03-15",
     "posterPath": "/oxZX9s92Xr5f7mnFCGyEsB5mCOb.jpg",
     "overview": "Uma equipe de comando militar composta por civis deve lutar contra mortos-vivos carnívoros, cães mutantes e defesas mortíferas de um super computador, antes que um vírus solto consuma a humanidade, nesta adaptação do sucesso da série de vídeo-games!",
     "duration": 100,
-    "rating": 6.644,
+    "rating": 6.647,
     "genres": [
       {
         "id": 27,
@@ -1814,11 +2022,11 @@
   {
     "id": 1577,
     "title": "Resident Evil 2: Apocalipse",
-    "releaseDate": "2004-10-08",
+    "releaseDate": "2004-09-10",
     "posterPath": "/r8q9pCcpzclyg2NjOt7DRbHRvG9.jpg",
     "overview": "Depois de escapar com grande dificuldade dos horrores das instalações subterrâneas da Hive, Alice é empurrada de volta para a guerra feroz entre os vivos e os não-mortos. Enquanto a cidade está isolada sob quarentena, Alice se junta a uma pequena equipe de soldados de elite comandada por Valentine e Carlos que tem a missão de resgatar a filha desaparecida do Dr. Ashford, o criador do vírus T-mutante. Será uma emocionante corrida contra o tempo, enquanto o grupo enfrenta hordas de zumbis sedentos de sangue, sanguessugas escondidas, cães mutantes e os mais sinistros inimigos.",
     "duration": 93,
-    "rating": 6.4,
+    "rating": 6.36,
     "genres": [
       {
         "id": 27,
@@ -1838,11 +2046,11 @@
   {
     "id": 339964,
     "title": "Valerian e a Cidade dos Mil Planetas",
-    "releaseDate": "2017-08-10",
+    "releaseDate": "2017-07-19",
     "posterPath": "/Ar9Npj8l5SnxpwAGNkdmObv0VBd.jpg",
     "overview": "Século XXVIII. Valérian é um agente viajante do tempo e do espaço que luta ao lado da parceira Laureline, por quem é apaixonado, em defesa da Terra e seus planetas aliados, continuamente atacados por bandidos intergaláticos. Quando chegam no planeta Alpha, eles precisarão acabar com uma operação comandada por grandes forças que deseja destruir os sonhos e as vidas dos dezessete milhões de habitantes do planeta.",
     "duration": 137,
-    "rating": 6.63,
+    "rating": 6.629,
     "genres": [
       {
         "id": 12,
@@ -1862,11 +2070,11 @@
   {
     "id": 1495,
     "title": "Cruzada",
-    "releaseDate": "2005-05-06",
+    "releaseDate": "2005-05-03",
     "posterPath": "/2VXjb6myxAppgfu6YRF4YsVmjZo.jpg",
     "overview": "Ainda em luto pela repentina morte de sua esposa, o ferreiro Balian junta-se ao seu distante pai, Baron Godfrey, nas cruzadas a caminho de Jerusalém. Após uma jornada muito difícil até à cidade santa, o jovem valente entra no séquito do rei leproso Balduíno IV, que deseja lutar contra os muçulmanos para seu próprio ganho político e pessoal.",
     "duration": 144,
-    "rating": 6.999,
+    "rating": 7,
     "genres": [
       {
         "id": 18,
@@ -1894,11 +2102,11 @@
   {
     "id": 9543,
     "title": "Príncipe da Pérsia: As Areias do Tempo",
-    "releaseDate": "2010-05-20",
+    "releaseDate": "2010-05-19",
     "posterPath": "/nJxserrGJEJSBzLRs4YMMN0OakZ.jpg",
     "overview": "Na cidade sagrada de Alamut ficam as Areias do Tempo, que dá aos mortais o poder de voltar ao passado. Após liderar um ataque à cidade, Dastan, o filho adotivo do rei da Pérsia, consegue uma adaga que lhe dá acesso às Areias. Dastan foge com uma princesa Alamut chamada Tamina após ser acusado de matar o pai. O casal precisa proteger o tesouro antigo e desmascarar o assassino do rei.",
     "duration": 116,
-    "rating": 6.288,
+    "rating": 6.289,
     "genres": [
       {
         "id": 12,
@@ -1918,11 +2126,11 @@
   {
     "id": 634649,
     "title": "Homem-Aranha: Sem Volta Para Casa",
-    "releaseDate": "2021-12-16",
+    "releaseDate": "2021-12-15",
     "posterPath": "/8qBccgSj0Ru9Odm1Mjv82cxDr7l.jpg",
     "overview": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
     "duration": 149,
-    "rating": 7.943,
+    "rating": 7.942,
     "genres": [
       {
         "id": 28,
@@ -1946,7 +2154,7 @@
     "posterPath": "/9uZsGCP4rvOHVGCpMpYq5gNCuNI.jpg",
     "overview": "Em 1873, um estranho (Daniel Craig) sem memória vai parar em Absolution, cidade inóspita para visitantes e dominada pelo medo imposto pelo pulso forte do \"Coronel\" Woodrow Dollarhyde (Harrison Ford). Mas o inesperado acontece quando máquinas voadoras atacam a cidade e sequestram seus habitantes. É quando os humanos descobrem que precisam combater a invasão alienígena, forçando os homens brancos, bons e maus, e ainda os peles vermelhas a unir forças contra a ameaça extraterrestre.",
     "duration": 119,
-    "rating": 5.633,
+    "rating": 5.634,
     "genres": [
       {
         "id": 28,
@@ -1970,11 +2178,11 @@
   {
     "id": 257088,
     "title": "Caçadores de Emoção: Além do Limite",
-    "releaseDate": "2016-01-15",
+    "releaseDate": "2015-12-03",
     "posterPath": "/z1kcojadmCqDM8sqLR8APnYu1lx.jpg",
     "overview": "Um jovem agente do FBI tem como missão se infiltrar em meio a atletas de esportes radicais, suspeitos de cometerem uma série de roubos nunca vistos até então. Não demora muito para que ele se aproxime de Bodhi, o líder do grupo, e conquiste sua confiança.",
     "duration": 113,
-    "rating": 5.959,
+    "rating": 5.961,
     "genres": [
       {
         "id": 28,
@@ -1998,11 +2206,11 @@
   {
     "id": 254128,
     "title": "Terremoto: A Falha de San Andreas",
-    "releaseDate": "2015-05-28",
+    "releaseDate": "2015-05-27",
     "posterPath": "/y0Xi03TuBe5PMylesEmKSVguSkN.jpg",
     "overview": "Um forte terremoto atinge a Califórnia e faz com que Ray, um bombeiro especializado em resgates com helicópteros, tenha que percorrer o estado ao lado da ex-esposa para resgatar a sua filha Blake.",
     "duration": 114,
-    "rating": 6.247,
+    "rating": 6.246,
     "genres": [
       {
         "id": 28,
@@ -2022,7 +2230,7 @@
   {
     "id": 27582,
     "title": "Assassino à Preço Fixo",
-    "releaseDate": "2011-03-18",
+    "releaseDate": "2011-01-13",
     "posterPath": "/AbO2OzFiWt9cEjgZfSOnp75ihGE.jpg",
     "overview": "Arthur Bishop faz parte de um grupo de elite de assassinos e é um dos melhores no negócio, onde exerce as suas funções com precisão. Mas, quando Harry, seu amigo e mentor, é assassinado, Bishop jura vingança. O filho de Harry quer vingança e tem o desejo de aprender e fazer parte do negócio.",
     "duration": 93,
@@ -2046,11 +2254,11 @@
   {
     "id": 9654,
     "title": "Uma Saída de Mestre",
-    "releaseDate": "2003-10-03",
+    "releaseDate": "2003-05-30",
     "posterPath": "/rxEQJrBn0swmqZyXiHDYzPNEion.jpg",
     "overview": "Charlie Croker é um gênio do crime e está decidido a recuperar um cofre repleto de ouro que fora roubado por seu ex-sócio que o traiu. Para isso, Croker conta com uma gangue formada pelo gênio da computação Steve, pelo piloto Handsome Rob, pelo especialista em explosivos Left Ear, pelo arrombador de cofres John Bridger e pela bela Stella Bridger. Extravagante, o plano de mestre deles é recuperar o cofre em plena Los Angeles, criando o maior engarrafamento que a cidade já viu em sua história.",
     "duration": 111,
-    "rating": 6.78,
+    "rating": 6.781,
     "genres": [
       {
         "id": 28,
@@ -2066,11 +2274,11 @@
   {
     "id": 8909,
     "title": "O Procurado",
-    "releaseDate": "2008-08-22",
+    "releaseDate": "2008-06-19",
     "posterPath": "/yPID9fe5zoruCIWq49lgcAaLjWa.jpg",
     "overview": "Quando Wesley Gibson descobre, depois do homicídio do pai, que pertencia a uma sociedade secreta de assassinos, desenvolve habilidades inatas para vingá-lo.",
     "duration": 110,
-    "rating": 6.524,
+    "rating": 6.526,
     "genres": [
       {
         "id": 28,
@@ -2088,13 +2296,24 @@
     "link": "https://drive.google.com/file/d/1MPzZ_udjun1Kavm-uTRgJ3e-ES_YxXuG/preview?usp=drivesdk"
   },
   {
+    "id": null,
+    "title": "Velozes e Furiosos (A todo vapor)",
+    "releaseDate": null,
+    "posterPath": null,
+    "overview": "Informações não encontradas no TMDB",
+    "duration": null,
+    "rating": 0,
+    "genres": [],
+    "link": "https://topflix.sh/filmes/assistir-online-velozes-e-furiosos/"
+  },
+  {
     "id": 584,
     "title": "+ Velozes + Furiosos",
-    "releaseDate": "2003-06-13",
+    "releaseDate": "2003-06-05",
     "posterPath": "/mx0CB8H78PQu0g9YUWG47hdi93S.jpg",
     "overview": "O ex-policial Brian comete uma grande traição, juntando-se a um amigo ex-presidiário no transporte de dinheiro sujo para uma importadora-exportadora muito suspeita.",
     "duration": 107,
-    "rating": 6.5,
+    "rating": 6.513,
     "genres": [
       {
         "id": 28,
@@ -2118,7 +2337,7 @@
     "posterPath": "/1kzW2GImY1YVmLRx3NLhXFBfLLO.jpg",
     "overview": "Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
     "duration": 104,
-    "rating": 6.524,
+    "rating": 6.527,
     "genres": [
       {
         "id": 28,
@@ -2142,11 +2361,11 @@
   {
     "id": 13804,
     "title": "Velozes e Furiosos 4",
-    "releaseDate": "2009-04-24",
+    "releaseDate": "2009-04-02",
     "posterPath": "/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
     "overview": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
     "duration": 107,
-    "rating": 6.682,
+    "rating": 6.683,
     "genres": [
       {
         "id": 28,
@@ -2170,11 +2389,11 @@
   {
     "id": 51497,
     "title": "Velozes & Furiosos 5: Operação Rio",
-    "releaseDate": "2011-05-05",
+    "releaseDate": "2011-04-20",
     "posterPath": "/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg",
     "overview": "Desde que o ex-policial Brian O'Conner e Mia Torretto libertaram Dom da prisão, eles viajam pelas fronteiras para fugir das autoridades. No Rio de Janeiro, eles fazem um último trabalho antes que possam ganhar sua liberdade definitiva. Montando sua equipe de elite de pilotos de carro, Brian e Dom sabem que têm de enfrentar o empresário corrupto que quer vê-los mortos, antes que o agente federal em sua trilha os encontre.",
     "duration": 131,
-    "rating": 7.24,
+    "rating": 7.242,
     "genres": [
       {
         "id": 28,
@@ -2194,11 +2413,11 @@
   {
     "id": 82992,
     "title": "Velozes & Furiosos 6",
-    "releaseDate": "2013-05-24",
+    "releaseDate": "2013-05-21",
     "posterPath": "/h8SD0Kkqv3PUBneQX9tFsDrFu8.jpg",
     "overview": "Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com US$100 milhões, a equipe se espalhou pelo mundo. Um dia, Hobbs pede a Dom que reúna um grupo de elite em Londres e apreenda uma organização de mercenários nas ruas, cujo mentor é apoiado por Letty, a antiga namorada de Dom que ele acreditava estar morta. A recompensa? Absolvição a todos eles para poderem voltar para as suas casas e tornarem suas famílias completas novamente.",
     "duration": 130,
-    "rating": 6.816,
+    "rating": 6.817,
     "genres": [
       {
         "id": 28,
@@ -2218,11 +2437,11 @@
   {
     "id": 168259,
     "title": "Velozes & Furiosos 7",
-    "releaseDate": "2015-04-02",
+    "releaseDate": "2015-04-01",
     "posterPath": "/spydMyyD81HjGJVwZvjajkrWW1h.jpg",
     "overview": "Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe têm a chance de voltar para os Estados Unidos e recomeçar suas vidas. Mas a tranquilidade do grupo é destruída quando Deckard Shaw, um assassino profissional, quer vingança pelo acidente que deixou seu irmão em coma. Agora, a equipe tem de unir forças para deter um vilão novo e ainda mais perigoso. Dessa vez, não se trata apenas de uma questão de velocidade: a corrida é pela sobrevivência.",
     "duration": 132,
-    "rating": 7.222,
+    "rating": 7.2,
     "genres": [
       {
         "id": 28,
@@ -2266,7 +2485,7 @@
   {
     "id": 10138,
     "title": "Homem de Ferro 2",
-    "releaseDate": "2010-04-30",
+    "releaseDate": "2010-04-28",
     "posterPath": "/vzROjQbgKWMVf2EldXipCcjpuBL.jpg",
     "overview": "Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas.",
     "duration": 124,
@@ -2290,11 +2509,11 @@
   {
     "id": 68721,
     "title": "Homem de Ferro 3",
-    "releaseDate": "2013-04-26",
+    "releaseDate": "2013-04-18",
     "posterPath": "/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg",
     "overview": "Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso.",
     "duration": 130,
-    "rating": 6.9,
+    "rating": 6.93,
     "genres": [
       {
         "id": 28,
@@ -2314,11 +2533,11 @@
   {
     "id": 14869,
     "title": "G.I. Joe: A Origem de Cobra",
-    "releaseDate": "2009-08-07",
+    "releaseDate": "2009-08-03",
     "posterPath": "/gS2bNL3LTUVCLmTNhyIamBQa0eS.jpg",
     "overview": "Quando tudo parece falhar... Eles não falham! Eles são a equipe G.I. Joe, uma força de elite supersecreta com os melhores agentes de todo o mundo. Depois que uma arma secreta de alta tecnologia é roubada pela misteriosa e diabólica organização Cobra, os G. I. Joes correm contra o tempo para impedir Cobra de usar a arma e mergulhar o mundo no caos.",
     "duration": 113,
-    "rating": 5.784,
+    "rating": 5.785,
     "genres": [
       {
         "id": 12,
@@ -2342,11 +2561,11 @@
   {
     "id": 413052,
     "title": "Hacker: Todo Crime Tem Um Início",
-    "releaseDate": "2016-12-02",
+    "releaseDate": "2016-09-15",
     "posterPath": "/6zHdhfnreagE3Bv6n7BXtC8gk6r.jpg",
     "overview": "Alex Danyliuk cansou de viver rodeado dos diversos problemas financeiros de sua família e tomou uma decisão drástica: entrar para o mundo do crime e mudar a vida de seus pais. Ao lado de Sye e da hacker Kira, que conhecem bem o mundo obscuro da criminalidade online, eles se tornam uma pedra no sapato do mercado financeiro e chegam aos ouvidos de Z, líder da organização Anonymous.",
     "duration": 96,
-    "rating": 6.3,
+    "rating": 6.286,
     "genres": [
       {
         "id": 80,
@@ -2366,11 +2585,11 @@
   {
     "id": 137094,
     "title": "Operação Sombra: Jack Ryan",
-    "releaseDate": "2014-01-24",
+    "releaseDate": "2014-01-15",
     "posterPath": "/r0Z5gDSgS1h6bzdt7L4psUTtSzn.jpg",
     "overview": "O agente Jack Ryan é mandado a Moscou para trabalhar como consultor financeiro de um bilionário. O empregador, na verdade, arma para que Ryan leve a culpa por um ataque terrorista ao sistema financeiro dos EUA. O herói precisa, então, correr para limpar seu nome e salvar sua esposa, que foi pega como refém do bilionário.",
     "duration": 105,
-    "rating": 6.116,
+    "rating": 6.118,
     "genres": [
       {
         "id": 28,
@@ -2390,11 +2609,11 @@
   {
     "id": 44833,
     "title": "Battleship: A Batalha dos Mares",
-    "releaseDate": "2012-05-11",
+    "releaseDate": "2012-04-11",
     "posterPath": "/a33ODXEpYK6hBUhajrCGphxscWk.jpg",
     "overview": "A equipe comandada pelo almirante Shane está a bordo do navio USS John Paul Jones. Em alto mar, eles se deparam com uma ameça alienígena. Para defender o planeta, eles precisam unir forças com a tripulação de outro navio e também com os cientistas comandados por Cal Zapata.",
     "duration": 131,
-    "rating": 5.87,
+    "rating": 5.873,
     "genres": [
       {
         "id": 53,
@@ -2416,13 +2635,24 @@
     "link": "https://drive.google.com/file/d/1avKIitR8DmI7IsOmtsgLvtxbc_CQRQTh/preview?usp=sharing"
   },
   {
+    "id": null,
+    "title": "Bourn 2002",
+    "releaseDate": null,
+    "posterPath": null,
+    "overview": "Informações não encontradas no TMDB",
+    "duration": null,
+    "rating": 0,
+    "genres": [],
+    "link": "https://drive.google.com/file/d/1PyauLUusikUSlHqNH-6nI2I-pUhNbVJ7/view?usp=sharing"
+  },
+  {
     "id": 845111,
     "title": "Os Três Mosqueteiros: Milady",
-    "releaseDate": "2023-12-14",
+    "releaseDate": "2023-12-13",
     "posterPath": "/A1oqO9fkhmK3u3CX1hoUmFPV6AA.jpg",
     "overview": "No segundo capítulo da saga dos Três Mosqueteiros, Constance Bonacieux é sequestrada diante dos olhos de D'Artagnan, o que o leva a iniciar uma frenética busca para salvá-la, sendo forçado a aliar-se à misteriosa Milady de Winter. Junto a Athos, Porthos e Aramis, o jovem mosqueteiro enfrentará alguns segredos obscuros que podem balançar velhas alianças e desencadear uma grande guerra.",
     "duration": 115,
-    "rating": 6.432,
+    "rating": 6.417,
     "genres": [
       {
         "id": 12,
@@ -2446,11 +2676,11 @@
   {
     "id": 346910,
     "title": "O Predador",
-    "releaseDate": "2018-09-14",
+    "releaseDate": "2018-09-05",
     "posterPath": "/8NQd3uDbOsEvpvDRGusZnUbRDOO.jpg",
     "overview": "Uma perseguição entre naves alienígenas traz à Terra um novo predador, que acaba sendo capturado por humanos. Antes disso, ele tem seu capacete e bracelete roubados por Quinn McKenna, um atirador de elite que estava em missão no local onde a nave caiu. A bióloga Casey Brackett é chamada para examinar o ser recém-descoberto, mas ele logo consegue escapar do laboratório em que é mantido em cativeiro.",
     "duration": 107,
-    "rating": 5.628,
+    "rating": 5.627,
     "genres": [
       {
         "id": 878,
@@ -2470,11 +2700,11 @@
   {
     "id": 49538,
     "title": "X-Men: Primeira Classe",
-    "releaseDate": "2011-06-03",
+    "releaseDate": "2011-06-01",
     "posterPath": "/nqPXRgbfzMJ4Wh4a1OkeVjOEDmK.jpg",
     "overview": "No início dos anos 1960, durante o auge da Guerra Fria, um mutante chamado Charles Xavier conhece um mutante chamado Erik Lehnsherr. Apesar de suas origens muito diferentes - Charles cresceu em uma família rica enquanto Erik perdeu seus pais em Auschwitz -, os dois se tornam grandes amigos. Enquanto o mundo oscila à beira de uma guerra nuclear, Charles e Erik unem forças com outros mutantes para salvar a humanidade. No entanto, um acontecimento separa os dois amigos.",
     "duration": 131,
-    "rating": 7.298,
+    "rating": 7.297,
     "genres": [
       {
         "id": 28,
@@ -2489,16 +2719,16 @@
         "name": "Aventura"
       }
     ],
-    "link": "https://drive.google.com/file/d/1MPzZ_udjun1Kavm-uTRgJ3e-ES_YxXuG/preview?usp=drivesdk"
+    "link": "https://drive.google.com/file/d/1QwZNu462nFEpb5m7zfBW3QH1leXbhiQv/preview?usp=sharing"
   },
   {
     "id": 246655,
     "title": "X-Men: Apocalipse",
-    "releaseDate": "2016-05-19",
+    "releaseDate": "2016-05-18",
     "posterPath": "/w8D2AnlP7YutsiJ6WbpxWHAazSs.jpg",
     "overview": "Apocalipse, o primeiro mutante de todos, consegue retornar à vida após milhares de anos. Agora, ele sai à procura de seguidores para dominar o mundo. Caberá aos X-Men se unirem para impedir os planos do vilão e evitar uma catástofre mundial.",
     "duration": 144,
-    "rating": 6.515,
+    "rating": 6.516,
     "genres": [
       {
         "id": 28,
@@ -2522,11 +2752,11 @@
   {
     "id": 766507,
     "title": "O Predador: A Caçada",
-    "releaseDate": "2022-08-05",
-    "posterPath": "/l3aEMk86DYR78g6u3M2SDCO8yNp.jpg",
+    "releaseDate": "2022-08-02",
+    "posterPath": "/8esU2U26D6N8SCupPs7Rd7mE9iZ.jpg",
     "overview": "Ambientado no mundo da Nação Comanche no início de 1700, \"O Predador: A Caçada\" é a história não contada de uma jovem guerreira altamente qualificada, desesperada para proteger seu povo do perigo iminente. Ela persegue e finalmente confronta sua presa, que acaba sendo um predador alienígena altamente evoluído com um arsenal tecnologicamente avançado, resultando em um confronto brutal e aterrorizante entre os adversários.",
     "duration": 99,
-    "rating": 7.683,
+    "rating": 7.68,
     "genres": [
       {
         "id": 53,
@@ -2546,11 +2776,11 @@
   {
     "id": 365620,
     "title": "Ferrari",
-    "releaseDate": "2024-02-22",
+    "releaseDate": "2023-12-14",
     "posterPath": "/gwvIirDw4fKy491PpjSMda28SoN.jpg",
     "overview": "O ex-piloto de corrida, Enzo Ferrari está em crise. A falência assombra a empresa que ele e sua mulher, Laura, construíram do nada 10 anos atrás. O casamento tempestuoso dos dois sofre com o luto pela morte de um filho e a dificuldade de reconhecer outro. Ele decide contrapor essas perdas apostando tudo em uma corrida - a icônica Mille Miglia, na Itália.",
     "duration": 131,
-    "rating": 6.381,
+    "rating": 6.382,
     "genres": [
       {
         "id": 36,
@@ -2566,7 +2796,7 @@
   {
     "id": 80274,
     "title": "Ender's Game: O Jogo do Exterminador",
-    "releaseDate": "2013-12-20",
+    "releaseDate": "2013-10-24",
     "posterPath": "/uy7oMawvnKCTQApdced7GYiQ6V5.jpg",
     "overview": "Para impedir um novo ataque da força alienígena que quase acabou com a raça humana, o jovem Ender Wiggin é recrutado pelo corpo militar internacional. Ele treina para se transformar no melhor jogador, e sua missão é acabar com a guerra.",
     "duration": 115,
@@ -2590,11 +2820,11 @@
   {
     "id": 857,
     "title": "O Resgate do Soldado Ryan",
-    "releaseDate": "1998-09-11",
+    "releaseDate": "1998-07-24",
     "posterPath": "/9SykLweWJJ5ISoT52s4Pfmul9DM.jpg",
     "overview": "Ao desembarcar na Normandia, no dia 6 de junho de 1944, o capitão Miller recebe a missão de comandar um grupo do segundo batalhão para o resgate do soldado James Ryan, caçula de quatro irmãos, dentre os quais três morreram em combate. Por ordens do chefe George C. Marshall, eles precisam procurar o soldado e garantir o seu retorno, com vida, para casa.",
     "duration": 170,
-    "rating": 8.2,
+    "rating": 8.22,
     "genres": [
       {
         "id": 18,
@@ -2614,11 +2844,11 @@
   {
     "id": 181808,
     "title": "Star Wars: Episódio VIII - Os Últimos Jedi",
-    "releaseDate": "2017-12-14",
+    "releaseDate": "2017-12-13",
     "posterPath": "/5dGufuaIG5vNcxPm8QPij5MSPeQ.jpg",
     "overview": "A tranquila e solitária vida de Luke Skywalker sofre uma reviravolta quando ele conhece Rey, uma jovem que mostra fortes sinais da Força. O desejo dela de aprender o estilo dos Jedi força Luke a tomar uma decisão que mudará sua vida para sempre. Enquanto isso, Kylo Ren e o General Hux lideram a Primeira Ordem para um ataque total contra Leia e a Resistência pela supremacia da galáxia.",
     "duration": 150,
-    "rating": 6.8,
+    "rating": 6.772,
     "genres": [
       {
         "id": 12,
@@ -2638,11 +2868,11 @@
   {
     "id": 335787,
     "title": "Uncharted: Fora do Mapa",
-    "releaseDate": "2022-02-17",
+    "releaseDate": "2022-02-10",
     "posterPath": "/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg",
     "overview": "Nathan Drake e seu parceiro canastrão Victor \"Sully\" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.",
     "duration": 116,
-    "rating": 6.906,
+    "rating": 6.902,
     "genres": [
       {
         "id": 28,
@@ -2662,7 +2892,7 @@
     "posterPath": "/gmY6yEyvLlkqrgqYNXPp1llPZeT.jpg",
     "overview": "Um caçador de vampiros tem uma semana para conseguir dinheiro para pagar as despesas da filha. E ele vai lutar com unhas e dentes para garantir o sustento da família.",
     "duration": 111,
-    "rating": 6.772,
+    "rating": 6.771,
     "genres": [
       {
         "id": 28,
@@ -2690,11 +2920,11 @@
   {
     "id": 361743,
     "title": "Top Gun: Maverick",
-    "releaseDate": "2022-05-26",
+    "releaseDate": "2022-05-21",
     "posterPath": "/8v3lrllHYRrqEdYWLyscH4RGFDO.jpg",
     "overview": "Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, Pete \"Maverick\" Mitchell está de volta, rompendo os limites como um piloto de testes corajoso. No mundo contemporâneo das guerras tecnológicas, Maverick enfrenta drones e prova que o fator humano ainda é essencial.",
     "duration": 131,
-    "rating": 8.2,
+    "rating": 8.168,
     "genres": [
       {
         "id": 28,
@@ -2710,12 +2940,16 @@
   {
     "id": 866398,
     "title": "Beekeeper: Rede de Vingança",
-    "releaseDate": "2024-01-11",
+    "releaseDate": "2024-01-08",
     "posterPath": "/6Gw8MMtwE87W7rbrlmL2GnajFc5.jpg",
     "overview": "Clay está em busca de vingança e não vai parar até acabar com o sistema criminoso responsável pela morte de sua amiga. O plano brutal de Clay, um ex-agente de uma organização secreta poderosa conhecida como “Beekeepers”, ganha dimensões nacionais envolvendo governos e as instituições mais influentes do mundo. Determinado a fazer justiça com suas próprias mãos, ele está disposto a tudo e não vai poupar ninguém para concluir seu plano.",
     "duration": 105,
-    "rating": 7.3,
+    "rating": 7.297,
     "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
       {
         "id": 28,
         "name": "Ação"
@@ -2723,10 +2957,6 @@
       {
         "id": 80,
         "name": "Crime"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
       }
     ],
     "link": "https://drive.google.com/file/d/11C7LyDwTJtzJ17U5CUftiy2ftl0IWRBH/preview"
@@ -2758,7 +2988,7 @@
     "posterPath": "/oSK996swnjHOPCWAw5CiRoYLsKk.jpg",
     "overview": "Agora mais temível do que nunca, Arraia Negra detém o poder do mítico Tridente Preto e sua ancestral força malévola. Para derrotá-lo, Aquaman recorrerá a seu irmão Orm, o ex-Rei da Atlântida, ainda na prisão, para forjar uma aliança improvável. Juntos, eles vão ter que deixar de lado suas diferenças para proteger seu reino, salvar a família de Aquaman e o mundo da irreversível destruição.",
     "duration": 124,
-    "rating": 6.6,
+    "rating": 6.592,
     "genres": [
       {
         "id": 28,
@@ -2778,11 +3008,11 @@
   {
     "id": 38700,
     "title": "Bad Boys Para Sempre",
-    "releaseDate": "2020-01-30",
+    "releaseDate": "2020-01-15",
     "posterPath": "/u3S3p3j0vL8lHrxTsgGzRQMCdzh.jpg",
     "overview": "Marcus Burnett agora é um inspetor e Mike Lowrey se encontra numa crise de meia-idade. Mas a dupla tem que se juntar novamente quando um mercenário albanês, cujo irmão foi capturado por eles, promete um bônus de vingança justamente quando eles estão prestes a se aposentar.",
     "duration": 113,
-    "rating": 7.131,
+    "rating": 7.132,
     "genres": [
       {
         "id": 53,
@@ -2800,22 +3030,14 @@
     "link": "https://drive.google.com/file/d/1LCZQIX6asnoZSkbDIuKih-X6KdZOjTR6/preview?usp=drivesdk"
   },
   {
-    "id": 142061,
-    "title": "Batman: O Cavaleiro das Trevas, Parte 2",
-    "releaseDate": "2013-01-29",
-    "posterPath": "/1cTl0osriQcj6sHgoCwl3K6UBAs.jpg",
-    "overview": "Bruce Wayne leva uma vida comum, após ter optado pela aposentadoria, como Batman. A onda de crimes em Gotham City, porém, faz com que ele decida vestir novamente o manto do homem-morcego e perseguir os criminosos pelas ruas.",
-    "duration": 75,
-    "rating": 7.928,
+    "id": 736074,
+    "title": "Batman: O Longo Dia das Bruxas - Parte 2",
+    "releaseDate": "2021-07-26",
+    "posterPath": "/9aU7b0dBctae0aLRYy6joj467zV.jpg",
+    "overview": "O assassino conhecido como Holiday continua a perseguir a família do crime Falcone, enquanto uma nova classe de criminosos fantasiados sobe em Gotham City. Batman suspeita que um ex-aliado pode ser o assassino em série.",
+    "duration": 87,
+    "rating": 7.416,
     "genres": [
-      {
-        "id": 878,
-        "name": "Ficção científica"
-      },
-      {
-        "id": 28,
-        "name": "Ação"
-      },
       {
         "id": 16,
         "name": "Animação"
@@ -2823,6 +3045,14 @@
       {
         "id": 9648,
         "name": "Mistério"
+      },
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
       }
     ],
     "link": "https://drive.google.com/file/d/1Ai8M9RUr1sACXhD6g1e9eKr1ZwK_91tX/preview"
@@ -2830,11 +3060,11 @@
   {
     "id": 385687,
     "title": "Velozes & Furiosos 10",
-    "releaseDate": "2023-05-18",
+    "releaseDate": "2023-05-17",
     "posterPath": "/wDWAA5QApz5L5BKfFaaj8HJCAQM.jpg",
-    "overview": "O fim da estrada está chegando. Velozes & Furiosos 10, é o décimo filme da franquia Velozes & Furiosos, lança os capítulos finais de uma grande saga, uma das mais famosas e populares do cinema, agora com sua terceira década e ainda mais forte. Com o mesmo elenco e personagens principais de quando começou. Ao longo de muitas missões e lutando contra todos os obstáculos impossíveis, Dom Toretto (Vin Diesel) e sua família foram mais espertos, mais furiosos e mais rápidos do que todos os inimigos em seu caminho. Agora, eles enfrentam o seu oponente mais letal: uma ameaça terrível das sombras do passado, alimentada por sede de vingança e determinada a destruir esta família.",
+    "overview": "Dom Toretto enfrenta seu maior desafio até agora: a corrida para salvar a família de um inimigo cheio de rancor e fúria no volante.",
     "duration": 142,
-    "rating": 7,
+    "rating": 7.035,
     "genres": [
       {
         "id": 28,
@@ -2862,11 +3092,11 @@
   {
     "id": 693134,
     "title": "Duna: Parte Dois",
-    "releaseDate": "2024-02-29",
+    "releaseDate": "2024-02-27",
     "posterPath": "/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
     "overview": "A jornada de Paul Atreides continua. Ele está determinado a buscar vingança contra aqueles que destruíram sua família e seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma jornada espiritual, mística e marcial. Se torna Muad'Dib, o líder messiânico dos Fremen, enquanto luta para evitar um futuro sombrio que ele testemunhou em visões. No entanto, suas ações inadvertidamente desencadeiam uma Guerra Santa em seu nome, que se espalha pelo universo conhecido. Enquanto enfrenta escolhas difíceis entre o amor por Chani e o destino de seu povo, Paul precisa usar suas habilidades e conhecimentos para evitar o terrível futuro que previu.",
     "duration": 166,
-    "rating": 8.141,
+    "rating": 8.137,
     "genres": [
       {
         "id": 878,
@@ -2882,11 +3112,11 @@
   {
     "id": 726759,
     "title": "Tetris",
-    "releaseDate": "2023-03-30",
+    "releaseDate": "2023-03-15",
     "posterPath": "/4F2QwCOYHJJjecSvdOjStuVLkpu.jpg",
     "overview": "Em 1988, o vendedor americano de vídeo games Henk Rogers descobre o Tetris. Quando ele se propõe a levar o jogo para o mundo e se depara com uma perigosa teia de mentiras e corrupção por trás da Cortina de Ferro.",
     "duration": 118,
-    "rating": 7.673,
+    "rating": 7.662,
     "genres": [
       {
         "id": 53,
@@ -2906,11 +3136,11 @@
   {
     "id": 2501,
     "title": "A Identidade Bourne",
-    "releaseDate": "2002-10-11",
+    "releaseDate": "2002-06-14",
     "posterPath": "/gouAazYfEzTclGTNk4eygyZSKVi.jpg",
     "overview": "Um homem sem memória é resgatado do oceano por um barco de pesca. Sobre si, ele só sabe que tem talento para matar e um chip implantado no quadril. Enquanto busca sua história, tenta escapar de pessoas que, inexplicavelmente, querem matá-lo.",
     "duration": 118,
-    "rating": 7.469,
+    "rating": 7.468,
     "genres": [
       {
         "id": 28,
@@ -2938,7 +3168,7 @@
     "posterPath": "/656do53t3n3FqkOJZZ249izDMn5.jpg",
     "overview": "Uma valiosa estátua de Buda é roubada do templo de um vilarejo na Tailândia. Para recuperá-la e restabelecer a honra em sua terra natal, um lutador precisa enfrentar a gangue do chefão do crime na capital do país.",
     "duration": 108,
-    "rating": 7.1,
+    "rating": 7.133,
     "genres": [
       {
         "id": 28,
@@ -2958,7 +3188,7 @@
     "posterPath": "/ftGTYdALL91q7kJUsQaWDKR99v3.jpg",
     "overview": "Um jovem, no período Ayutthaya, cresce entre os aldeões que preservam o legado da tradicional dança mascarada Khon.  Ele se torna um paria quando considera que seu grupo não segue as tradições de seus antepassados.  Mas, seguindo o conselho de um misterioso guru, ele começa a desenvolver um novo estilo de luta que mistura a força das artes marciais com a elegância da dança Khon.",
     "duration": 98,
-    "rating": 6.413,
+    "rating": 6.418,
     "genres": [
       {
         "id": 12,
@@ -2978,11 +3208,11 @@
   {
     "id": 339403,
     "title": "Em Ritmo de Fuga",
-    "releaseDate": "2017-07-27",
+    "releaseDate": "2017-06-28",
     "posterPath": "/1rYTtQ14rPB3KOgk5TjkUqiQFch.jpg",
     "overview": "O jovem Baby tem uma mania curiosa: precisa ouvir músicas o tempo todo para silenciar o zumbido que perturba seus ouvidos desde um acidente na infância. Excelente motorista, ele é o piloto de fuga oficial dos assaltos de Doc, mas não vê a hora de deixar o cargo, principalmente depois que se vê apaixonado pela garçonete Debora.",
     "duration": 113,
-    "rating": 7.445,
+    "rating": 7.446,
     "genres": [
       {
         "id": 28,
@@ -2998,11 +3228,11 @@
   {
     "id": 218,
     "title": "O Exterminador do Futuro",
-    "releaseDate": "1985-03-25",
+    "releaseDate": "1984-10-26",
     "posterPath": "/rZvxTfmaOxWeOeU9w9Vkq5elagp.jpg",
     "overview": "Em um futuro próximo, a guerra entre humanos e máquinas foi iniciada. Com a tecnologia a seu dispor, um plano inusitado é arquitetado pelas máquinas ao enviar para o passado um andróide com a missão de matar a mãe daquele que viria a se transformar num líder e seu pior inimigo. Contudo, os humanos também conseguem enviar seu representante para proteger a mulher e tentar garantir o futuro da humanidade.",
     "duration": 107,
-    "rating": 7.669,
+    "rating": 7.67,
     "genres": [
       {
         "id": 28,
@@ -3022,11 +3252,11 @@
   {
     "id": 280,
     "title": "O Exterminador do Futuro 2: O Julgamento Final",
-    "releaseDate": "1991-08-30",
+    "releaseDate": "1991-07-03",
     "posterPath": "/nb0ertLALhkUqpmcahDFplqyc0I.jpg",
     "overview": "O jovem John Connor é a chave para a vitória da civilização sobre uma rebelião de robôs do futuro. No entanto, ele torna-se alvo de T-1000, um exterminador que pode assumir a forma que desejar e que foi enviado do futuro para matá-lo. Outro exterminador, o renovado T-800, também é enviado de volta ao passado para proteger o garoto. Quando John e sua mãe embarcam na fuga com T-800, o menino cria um vínculo forte e inesperado com o robô.",
     "duration": 136,
-    "rating": 8.129,
+    "rating": 8.13,
     "genres": [
       {
         "id": 28,
@@ -3046,11 +3276,11 @@
   {
     "id": 296,
     "title": "O Exterminador do Futuro 3: A Rebelião das Máquinas",
-    "releaseDate": "2003-08-01",
+    "releaseDate": "2003-07-02",
     "posterPath": "/qgD91j1YIeZKcO5MWe3blArV4SC.jpg",
     "overview": "Na intenção de concluir a missão ainda inacabada, a bela e perigosa máquina mortífera T-X é enviada para matar John Connor, líder da resistência humana contra as máquinas da Skynet. Para protegê-lo mais uma vez o ciborgue T-800 volta à cena.",
     "duration": 109,
-    "rating": 6.177,
+    "rating": 6.178,
     "genres": [
       {
         "id": 28,
@@ -3070,11 +3300,11 @@
   {
     "id": 87101,
     "title": "O Exterminador do Futuro: Gênesis",
-    "releaseDate": "2015-07-02",
+    "releaseDate": "2015-06-23",
     "posterPath": "/iAvjgsPiNp0pvgOWaMTSk2HXJh0.jpg",
     "overview": "John Connor, líder da resistência humana contra Skynet, envia Kyle Reese de volta a 1984 para proteger sua mãe, Sarah. Porém, Reese se surpreende ao encontrá-la com um exterminador que age como seu protetor, e descobre que o passado foi alterado.",
     "duration": 126,
-    "rating": 5.942,
+    "rating": 5.943,
     "genres": [
       {
         "id": 878,
@@ -3098,11 +3328,11 @@
   {
     "id": 603,
     "title": "Matrix",
-    "releaseDate": "1999-05-21",
+    "releaseDate": "1999-03-31",
     "posterPath": "/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg",
     "overview": "Thomas Anderson, um jovem programador de computador que mora em um cubículo escuro, é atormentado por estranhos pesadelos nos quais encontra-se conectado por cabos e contra sua vontade, em um imenso sistema de computadores do futuro. Em todas essas ocasiões, acorda gritando no exato momento em que os eletrodos estão para penetrar em seu cérebro. À medida que o sonho se repete, Anderson começa a ter dúvidas sobre a realidade. Por meio do encontro com os misteriosos Morpheus e Trinity, Thomas descobre que é, assim como outras pessoas, vítima da Matrix, um sistema inteligente e artificial que manipula a mente das pessoas, criando a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia. Morpheus, entretanto, está convencido de que Thomas é Neo, o aguardado messias capaz de enfrentar a Matrix e conduzir as pessoas de volta à realidade e à liberdade.",
     "duration": 136,
-    "rating": 8.229,
+    "rating": 8.23,
     "genres": [
       {
         "id": 28,
@@ -3118,11 +3348,11 @@
   {
     "id": 604,
     "title": "Matrix Reloaded",
-    "releaseDate": "2003-05-23",
+    "releaseDate": "2003-05-15",
     "posterPath": "/e7DdXOXP6mH2y7Fv7ujrk5tlsh7.jpg",
     "overview": "Após derrotar as máquinas em seu combate inicial, Neo ainda vive na Nabucodonosor ao lado de Morpheus, Trinity e Link, o novo tripulante da nave. As máquinas estão realizando uma grande ofensiva contra Zion, onde 250 mil delas escavam rumo à cidade e podem alcançá-la em poucos dias. A Nabucodonosor é convocada para retornar a Zion e participar da reunião que definirá o contra-ataque para salvar a humanidade da extinção. Entretanto, um recado enviado pelo Oráculo faz com que Neo retorne à Matrix.",
     "duration": 138,
-    "rating": 7.061,
+    "rating": 7.062,
     "genres": [
       {
         "id": 12,
@@ -3150,7 +3380,7 @@
     "posterPath": "/92oJ810bYqijBQ8tqYL74mSpPtV.jpg",
     "overview": "Após enfrentar os sentinelas no mundo real, Neo tem sua mente presa em um local que fica entre a Matrix e a realidade, do qual apenas poderá sair com a ajuda de Trainman. Após perceberem que as ondas cerebrais de Neo são idênticas as de uma pessoa conectada à Matrix, Trinity e Morpheus buscam a ajuda da Oráculo e Seraph. Trinity, Morpheus e Seraph vão em busca de Merovingian, que possui controle sobre Trainman e pode libertar Neo. Após obterem sucesso no resgate, o trio se divide em duas missões: Enquanto Morpheus e a tripulação de duas naves parte rumo a Zion, na tentativa de ajudar no combate contra as máquinas, Neo e Trinity se dirigem à Cidadela das Máquinas.",
     "duration": 129,
-    "rating": 6.74,
+    "rating": 6.742,
     "genres": [
       {
         "id": 12,
@@ -3174,11 +3404,11 @@
   {
     "id": 614933,
     "title": "Atlas",
-    "releaseDate": "2024-05-24",
+    "releaseDate": "2024-05-23",
     "posterPath": "/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg",
     "overview": "Uma brilhante analista em contraterrorismo não confia em inteligência artificial, mas precisa usá-la quando a missão para capturar um robô rebelde dá errado.",
     "duration": 120,
-    "rating": 6.724,
+    "rating": 6.727,
     "genres": [
       {
         "id": 878,
@@ -3194,7 +3424,7 @@
   {
     "id": 9802,
     "title": "A Rocha",
-    "releaseDate": "1996-07-11",
+    "releaseDate": "1996-06-07",
     "posterPath": "/juqEMUcEZDNMo5AowLr0r4NwSSN.jpg",
     "overview": "Um general, herói na Guerra do Vietnã, e seus comandados se apoderam de poderosas armas químicas e se instalam na prisão de Alcatraz, com 81 reféns. De lá eles ameaçam disparar as armas sobre São Francisco se 100 milhões de dólares não forem pagos, sendo que grande parte desta quantia será para doar às famílias de soldados americanos que morreram em missões secretas e nunca foram reconhecidos pela pátria. Para combatê-los, um grupo de elite é mandado para a ilha e entre eles está um jovem especialista em armas bioquímicas e o único homem que escapou do presídio, só que agora ele tem de entrar e, se possível, completar sua missão e sair vivo.",
     "duration": 137,
@@ -3218,11 +3448,11 @@
   {
     "id": 744,
     "title": "Top Gun - Ases Indomáveis",
-    "releaseDate": "1986-07-10",
+    "releaseDate": "1986-05-16",
     "posterPath": "/dDrMtnVgtDeecIgNchb9F8JcO5w.jpg",
     "overview": "A escola naval de pilotos é onde o melhor dos melhores treinam para refinar suas habilidades de voo de elite. Quando o piloto Maverick é enviado para a escola, sua atitude irresponsável e comportamento arrogante o colocam em desacordo com os outros pilotos, especialmente Iceman. Porém Maverick não está apenas competindo para ser o piloto superior de caça, ele também está lutando pela atenção de sua bonita instrutora de voo, Charlotte Blackwood.",
     "duration": 109,
-    "rating": 7.1,
+    "rating": 7.062,
     "genres": [
       {
         "id": 28,
@@ -3238,11 +3468,11 @@
   {
     "id": 228150,
     "title": "Corações de Ferro",
-    "releaseDate": "2015-02-05",
+    "releaseDate": "2014-10-15",
     "posterPath": "/p1ZsfMIfRs7cw2ebx17z1oo9YS7.jpg",
     "overview": "Durante o final da Segunda Guerra Mundial, um grupo de cinco soldados americanos é encarregado de atacar os nazistas dentro da própria Alemanha. Apesar de estarem em quantidade inferior e terem poucas armas, eles são liderados pelo enfurecido Wardaddy, sargento que pretende levá-los à vitória, enquanto ensina o novato Norman a lutar.",
     "duration": 135,
-    "rating": 7.54,
+    "rating": 7.541,
     "genres": [
       {
         "id": 10752,
@@ -3262,11 +3492,11 @@
   {
     "id": 562,
     "title": "Duro de Matar",
-    "releaseDate": "1988-12-15",
+    "releaseDate": "1988-07-15",
     "posterPath": "/jcAU1PXB4Dg0NP3uY2XEwO9rNsi.jpg",
     "overview": "O policial de Nova York John McClane está visitando sua família no Natal. Ele participa de uma confraternização de fim de ano na sede da empresa japonesa em que a esposa trabalha. A festa é interrompida por terroristas que invadem o edifício de luxo. McClane não demora a perceber que não há ninguém para salvá-los, a não ser ele próprio.",
     "duration": 132,
-    "rating": 7.8,
+    "rating": 7.802,
     "genres": [
       {
         "id": 28,
@@ -3282,11 +3512,11 @@
   {
     "id": 1573,
     "title": "Duro de Matar 2",
-    "releaseDate": "1990-08-24",
+    "releaseDate": "1990-07-03",
     "posterPath": "/lHtV1SrCJUAHXK8jeX3KrpxwTFf.jpg",
     "overview": "Terroristas assumem o controle do aeroporto de Washington, visando libertar um preso político que está sendo extraditado, e ameaçam destruir várias aeronaves se as exigências deles não forem cumpridas. Mas a esposa de John McClane, um detetive de Nova York, se encontra em um dos aviões, assim o marido resolve enfrentar a quadrilha.",
     "duration": 124,
-    "rating": 6.955,
+    "rating": 6.957,
     "genres": [
       {
         "id": 28,
@@ -3302,11 +3532,11 @@
   {
     "id": 1572,
     "title": "Duro de Matar 3: A Vingança",
-    "releaseDate": "1995-05-25",
+    "releaseDate": "1995-05-19",
     "posterPath": "/rujGZSxMjAXFSwbikMycrJNCMeW.jpg",
     "overview": "John McClane está separado da mulher e afastado da polícia. Mas um terrorista alemão começa a colocar bombas em lugares movimentados de Nova York e dá ao policial uma série de enigmas. Ele conta com a ajuda de Zeus para desvendar toda a trama e salvar muitas vidas.",
     "duration": 128,
-    "rating": 7.3,
+    "rating": 7.272,
     "genres": [
       {
         "id": 28,
@@ -3322,11 +3552,11 @@
   {
     "id": 1571,
     "title": "Duro de Matar 4.0",
-    "releaseDate": "2007-08-03",
+    "releaseDate": "2007-06-20",
     "posterPath": "/jjWBSZFDjWMhagwzznNyoGR9Ksu.jpg",
     "overview": "Os Estados Unidos sofrem um novo ataque terrorista, desta vez através da informática. Um hacker consegue invadir a infra-estrutura computadorizada que controla as comunicações, transporte e energia do país, ameaçando causar um gigantesco blecaute. O autor do ataque planejou todos os passos envolvidos, mas não contava que John McClane (Bruce Willis), um policial da velha guarda, fosse chamado para confrontá-lo.",
     "duration": 128,
-    "rating": 6.6,
+    "rating": 6.63,
     "genres": [
       {
         "id": 28,
@@ -3342,11 +3572,11 @@
   {
     "id": 47964,
     "title": "Duro de Matar: Um Bom Dia para Morrer",
-    "releaseDate": "2013-02-22",
+    "releaseDate": "2013-02-06",
     "posterPath": "/lwV8LxjFT6AdbUJxQrDIMZz5C8I.jpg",
     "overview": "O policial John McClane não tem boa relação com seu filho. Os dois precisam deixar de lado suas diferenças para livrar o rapaz de uma acusação e proteger um terrorista que diz ter um dossiê contra um potencial candidato à presidência da Rússia.",
     "duration": 98,
-    "rating": 5.3,
+    "rating": 5.333,
     "genres": [
       {
         "id": 28,
@@ -3362,11 +3592,11 @@
   {
     "id": 954,
     "title": "Missão: Impossível",
-    "releaseDate": "1996-07-12",
+    "releaseDate": "1996-05-22",
     "posterPath": "/umMK2yDMbBeIAOR480WqnShmF1L.jpg",
     "overview": "Durante uma missão em Praga, um grupo especial de agentes cai em uma cilada. O americano Ethan Hunt descobre que apenas ele e outra agente sobreviveram. Tomado como informante, ele foge e começa a agir por conta própria. Com a ajuda de um novo grupo, ele vai tentar limpar seu nome, descobrindo quem foi o espião que armou para o seu time.",
     "duration": 105,
-    "rating": 7,
+    "rating": 7.007,
     "genres": [
       {
         "id": 12,
