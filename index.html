@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalFlix</title>
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#f7921e">
+    <meta name="description" content="Sua plataforma de streaming pessoal">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="PersonalFlix">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+        }
+
+        .navbar {
+            background: #111;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            color: #f7921e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .search input {
+            padding: 5px;
+            background: #222;
+            color: #fff;
+            border: 1px solid #333;
+        }
+
+        .main-content {
+            padding: 15px;
+        }
+
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .movie-item {
+            cursor: pointer;
+            background: #222;
+        }
+
+        .movie-item img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .movie-title {
+            padding: 5px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .load-more {
+            padding: 8px 16px;
+            background: #f7921e;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .spinner {
+            border: 2px solid #333;
+            border-top: 2px solid #f7921e;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        #movie-modal {
+            background: rgba(0, 0, 0, 0.9);
+            border: none;
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+        }
+
+        .modal-content {
+            background: #111;
+            padding: 20px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            display: flex;
+            gap: 15px;
+        }
+
+        .modal-poster {
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .modal-details {
+            flex: 1;
+        }
+
+        .modal-details p {
+            margin-bottom: 8px;
+        }
+
+        .watch-button {
+            background: #f7921e;
+            color: black;
+            padding: 15px 30px;
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #video-iframe-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 300;
+        }
+
+        #video-iframe {
+            width: 95%;
+            height: 95%;
+        }
+
+        .close-video {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* PWA Install Prompt */
+        .install-prompt {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: #f7921e;
+            color: black;
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1000;
+        }
+
+        .install-prompt button {
+            background: black;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Offline indicator */
+        .offline-indicator {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #ff4444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Offline Indicator -->
+    <div id="offline-indicator" class="offline-indicator">
+        Você está offline. Alguns recursos podem não funcionar.
+    </div>
+
+    <!-- Install Prompt -->
+    <div id="install-prompt" class="install-prompt">
+        <strong>Instalar PersonalFlix</strong>
+        <p>Adicione o PersonalFlix à sua tela inicial para uma experiência melhor!</p>
+        <button id="install-button">Instalar</button>
+        <button id="dismiss-install">Não, obrigado</button>
+    </div>
+
+    <div class="navbar">
+        <a href="#" class="navbar-brand">PersonalFlix</a>
+        <div class="search">
+            <input id="search-input" type="text" placeholder="Buscar...">
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Filmes</h1>
+        <div class="stats">
+            <span id="showing-count">Mostrando: 0</span> |
+            <span id="total-count">Total: 0</span>
+        </div>
+        <div id="movies-grid" class="movies-grid"></div>
+        <div class="loading-spinner" id="loading-spinner">
+            <div class="spinner"></div>
+            <p>Carregando...</p>
+        </div>
+        <button id="load-more" class="load-more">Carregar Mais</button>
+    </div>
+
+    <dialog id="movie-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-movie-title"></h2>
+                <button id="modal-close" class="modal-close">×</button>
+            </div>
+            <div class="modal-body">
+                <img id="modal-movie-poster" class="modal-poster" src="" alt="Poster">
+                <div class="modal-details">
+                    <p id="modal-movie-release-date"></p>
+                    <p id="modal-movie-overview"></p>
+                    <p id="modal-movie-duration"></p>
+                    <p id="modal-movie-rating"></p>
+                    <p id="modal-movie-genres"></p>
+                    <button id="modal-watch-button" class="watch-button">Assistir</button>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <div id="video-iframe-container">
+        <button class="close-video" id="close-video-button">×</button>
+        <iframe id="video-iframe" src="" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        class PersonalFlix {
+            constructor() {
+                this.allMovies = [];
+                this.filteredMovies = [];
+                this.displayedMovies = [];
+                this.currentPage = 0;
+                this.moviesPerPage = 16;
+                this.isLoading = false;
+                this.searchQuery = '';
+                this.init();
+            }
+
+            async init() {
+                // Register Service Worker
+                if ('serviceWorker' in navigator) {
+                    try {
+                        await navigator.serviceWorker.register('sw.js');
+                        console.log('Service Worker registered successfully');
+                    } catch (error) {
+                        console.error('Service Worker registration failed:', error);
+                    }
+                }
+
+                // Setup PWA install prompt
+                this.setupPWAInstall();
+
+                // Setup online/offline detection
+                this.setupOfflineDetection();
+
+                await this.loadMovies();
+                this.setupEventListeners();
+                this.renderMovies();
+            }
+
+            setupPWAInstall() {
+                let deferredPrompt;
+                const installPrompt = document.getElementById('install-prompt');
+                const installButton = document.getElementById('install-button');
+                const dismissButton = document.getElementById('dismiss-install');
+
+                window.addEventListener('beforeinstallprompt', (e) => {
+                    e.preventDefault();
+                    deferredPrompt = e;
+                    installPrompt.style.display = 'block';
+                });
+
+                installButton.addEventListener('click', async () => {
+                    if (deferredPrompt) {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        deferredPrompt = null;
+                        installPrompt.style.display = 'none';
+                    }
+                });
+
+                dismissButton.addEventListener('click', () => {
+                    installPrompt.style.display = 'none';
+                });
+
+                // Hide prompt if already installed
+                window.addEventListener('appinstalled', () => {
+                    installPrompt.style.display = 'none';
+                });
+            }
+
+            setupOfflineDetection() {
+                const offlineIndicator = document.getElementById('offline-indicator');
+
+                window.addEventListener('online', () => {
+                    offlineIndicator.style.display = 'none';
+                });
+
+                window.addEventListener('offline', () => {
+                    offlineIndicator.style.display = 'block';
+                });
+
+                // Initial check
+                if (!navigator.onLine) {
+                    offlineIndicator.style.display = 'block';
+                }
+            }
+
+            async loadMovies() {
+                try {
+                    const response = await fetch('movies.json');
+                    this.allMovies = await response.json();
+                    this.filteredMovies = [...this.allMovies];
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Erro:', error);
+                    // Try to load from cache if network fails
+                    if ('caches' in window) {
+                        try {
+                            const cache = await caches.open('personalflix-v1');
+                            const cachedResponse = await cache.match('movies.json');
+                            if (cachedResponse) {
+                                this.allMovies = await cachedResponse.json();
+                                this.filteredMovies = [...this.allMovies];
+                                this.updateStats();
+                            }
+                        } catch (cacheError) {
+                            console.error('Cache error:', cacheError);
+                        }
+                    }
+                }
+            }
+
+            setupEventListeners() {
+                const searchInput = document.getElementById('search-input');
+                searchInput.addEventListener('input', this.debounce((e) => {
+                    this.searchMovies(e.target.value);
+                }, 300));
+
+                document.getElementById('load-more').addEventListener('click', () => {
+                    this.loadMoreMovies();
+                });
+
+                document.getElementById('modal-close').addEventListener('click', () => {
+                    this.closeModal();
+                });
+
+                document.getElementById('close-video-button').addEventListener('click', () => {
+                    this.closeVideo();
+                });
+
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') {
+                        this.closeModal();
+                        this.closeVideo();
+                    }
+                });
+            }
+
+            debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+
+            searchMovies(query) {
+                this.searchQuery = query.toLowerCase().trim();
+                if (this.searchQuery === '') {
+                    this.filteredMovies = [...this.allMovies];
+                } else {
+                    this.filteredMovies = this.allMovies.filter(movie =>
+                        movie.title.toLowerCase().includes(this.searchQuery)
+                    );
+                }
+                this.currentPage = 0;
+                this.displayedMovies = [];
+                this.renderMovies();
+                this.updateStats();
+            }
+
+            renderMovies() {
+                if (this.currentPage === 0) {
+                    document.getElementById('movies-grid').innerHTML = '';
+                    this.displayedMovies = [];
+                }
+
+                const start = this.currentPage * this.moviesPerPage;
+                const end = start + this.moviesPerPage;
+                const moviesToAdd = this.filteredMovies.slice(start, end);
+
+                this.displayedMovies.push(...moviesToAdd);
+
+                const grid = document.getElementById('movies-grid');
+                const fragment = document.createDocumentFragment();
+
+                moviesToAdd.forEach(movie => {
+                    const movieCard = this.createMovieCard(movie);
+                    fragment.appendChild(movieCard);
+                });
+
+                grid.appendChild(fragment);
+                this.updateLoadMoreButton();
+                this.updateStats();
+            }
+
+            createMovieCard(movie) {
+                const movieCard = document.createElement('div');
+                movieCard.className = 'movie-item';
+
+                const lowResImage = movie.posterPath
+                    ? `https://image.tmdb.org/t/p/w154${movie.posterPath}`
+                    : 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU0IiBoZWlnaHQ9IjIzMSIgdmlld0JveD0iMCAwIDE1NCAyMzEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNTQiIGhlaWdodD0iMjMxIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9Ijc3IiB5PSIxMjAiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTQiPk5vIEltYWdlPC90ZXh0Pgo8L3N2Zz4K';
+
+                movieCard.innerHTML = `
+                    <img src="${lowResImage}" alt="${movie.title}" loading="lazy">
+                    <div class="movie-title">${movie.title}</div>
+                `;
+
+                movieCard.addEventListener('click', () => {
+                    this.openMovieModal(movie);
+                });
+
+                return movieCard;
+            }
+
+            loadMoreMovies() {
+                if (this.isLoading) return;
+
+                this.isLoading = true;
+                this.showLoadingSpinner();
+
+                setTimeout(() => {
+                    this.currentPage++;
+                    this.renderMovies();
+                    this.hideLoadingSpinner();
+                    this.isLoading = false;
+                }, 200);
+            }
+
+            showLoadingSpinner() {
+                document.getElementById('loading-spinner').style.display = 'block';
+                document.getElementById('load-more').disabled = true;
+            }
+
+            hideLoadingSpinner() {
+                document.getElementById('loading-spinner').style.display = 'none';
+                document.getElementById('load-more').disabled = false;
+            }
+
+            updateLoadMoreButton() {
+                const loadMoreBtn = document.getElementById('load-more');
+                const hasMoreMovies = this.displayedMovies.length < this.filteredMovies.length;
+
+                if (hasMoreMovies) {
+                    loadMoreBtn.style.display = 'block';
+                    loadMoreBtn.textContent = `Carregar Mais (${this.filteredMovies.length - this.displayedMovies.length})`;
+                } else {
+                    loadMoreBtn.style.display = 'none';
+                }
+            }
+
+            updateStats() {
+                document.getElementById('showing-count').textContent = `Mostrando: ${this.displayedMovies.length}`;
+                document.getElementById('total-count').textContent = `Total: ${this.filteredMovies.length}`;
+            }
+
+            openMovieModal(movie) {
+                const modal = document.getElementById('movie-modal');
+
+                document.getElementById('modal-movie-title').textContent = movie.title;
+
+                const posterImg = document.getElementById('modal-movie-poster');
+                posterImg.src = movie.posterPath
+                    ? `https://image.tmdb.org/t/p/w300${movie.posterPath}`
+                    : 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDMwMCA0NTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9IjE1MCIgeT0iMjMwIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE4Ij5TZW0gSW1hZ2VtPC90ZXh0Pgo8L3N2Zz4K';
+
+                document.getElementById('modal-movie-release-date').textContent = `Lançamento: ${movie.releaseDate || 'N/A'}`;
+                document.getElementById('modal-movie-overview').textContent = `Sinopse: ${movie.overview || 'N/A'}`;
+                document.getElementById('modal-movie-duration').textContent = `Duração: ${movie.duration ? movie.duration + ' min' : 'N/A'}`;
+                document.getElementById('modal-movie-rating').textContent = `Avaliação: ${movie.rating ? movie.rating.toFixed(1) + '/10' : 'N/A'}`;
+
+                const genres = movie.genres && movie.genres.length > 0
+                    ? movie.genres.map(g => g.name).join(', ')
+                    : 'N/A';
+                document.getElementById('modal-movie-genres').textContent = `Gêneros: ${genres}`;
+
+                const watchButton = document.getElementById('modal-watch-button');
+                watchButton.onclick = () => {
+                    this.openVideo(movie.link);
+                };
+
+                modal.showModal();
+            }
+
+            closeModal() {
+                const modal = document.getElementById('movie-modal');
+                modal.close();
+            }
+
+            openVideo(videoLink) {
+                const container = document.getElementById('video-iframe-container');
+                const iframe = document.getElementById('video-iframe');
+                iframe.src = videoLink;
+                container.style.display = 'flex';
+                this.closeModal();
+            }
+
+            closeVideo() {
+                const container = document.getElementById('video-iframe-container');
+                const iframe = document.getElementById('video-iframe');
+                iframe.src = '';
+                container.style.display = 'none';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            new PersonalFlix();
+        });
+    </script>
+</body>
+
+</html>
