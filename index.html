@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PersonalFlix</title>
-
+    
     <!-- PWA Meta Tags -->
     <meta name="theme-color" content="#f7921e">
     <meta name="description" content="Sua plataforma de streaming pessoal">
@@ -13,16 +12,14 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="PersonalFlix">
-
+    
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
-
+    
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzAwMCIvPgo8dGV4dCB4PSIxNiIgeT0iMjIiIGZpbGw9IiNmNzkyMWUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LWZhbWlseT0iQXJpYWwiPlBGPC90ZXh0Pgo8L3N2Zz4K">
-    <link rel="apple-touch-icon"
-        href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9IiMwMDAiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZjc5MjFlIj4KICA8cGF0aCBkPSJtNyAyIDEwIDZMNyAxOHoiLz4KPC9zdmc+CjwvZz4KPC9zdmc+">
-
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzAwMCIvPgo8dGV4dCB4PSIxNiIgeT0iMjIiIGZpbGw9IiNmNzkyMWUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LWZhbWlseT0iQXJpYWwiPlBGPC90ZXh0Pgo8L3N2Zz4K">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9IiMwMDAiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZjc5MjFlIj4KICA8cGF0aCBkPSJtNyAyIDEwIDZMNyAxOHoiLz4KPC9zdmc+CjwvZz4KPC9zdmc+">
+    
     <style>
         * {
             margin: 0;
@@ -112,13 +109,8 @@
         }
 
         @keyframes spin {
-            0% {
-                transform: rotate(0deg)
-            }
-
-            100% {
-                transform: rotate(360deg)
-            }
+            0% { transform: rotate(0deg) }
+            100% { transform: rotate(360deg) }
         }
 
         #movie-modal {
@@ -234,6 +226,51 @@
             border-radius: 4px;
         }
 
+        /* Manual Install Button */
+        .manual-install {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #f7921e;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 1000;
+        }
+
+        .install-instructions {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.95);
+            color: white;
+            padding: 40px;
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        .install-instructions h2 {
+            color: #f7921e;
+            margin-bottom: 20px;
+        }
+
+        .install-instructions .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
         /* Offline indicator */
         .offline-indicator {
             display: none;
@@ -249,14 +286,49 @@
         }
     </style>
 </head>
-
 <body>
     <!-- Offline Indicator -->
     <div id="offline-indicator" class="offline-indicator">
         Você está offline. Alguns recursos podem não funcionar.
     </div>
 
-    <!-- Install Prompt -->
+    <!-- Manual Install Button -->
+    <button id="manual-install" class="manual-install">📱 Instalar App</button>
+
+    <!-- Install Instructions Modal -->
+    <div id="install-instructions" class="install-instructions">
+        <button class="close-btn" id="close-instructions">×</button>
+        <h2>Como Instalar no seu TV Box</h2>
+        
+        <h3>📱 Método 1: Navegador Chrome</h3>
+        <p>1. Abra este site no <strong>Chrome</strong></p>
+        <p>2. Toque no menu (⋮) → <strong>"Instalar app"</strong></p>
+        <p>3. Confirme a instalação</p>
+        
+        <h3>🦊 Método 2: Firefox</h3>
+        <p>1. Abra no <strong>Firefox</strong></p>
+        <p>2. Menu → <strong>"Instalar"</strong> ou <strong>"Adicionar à tela inicial"</strong></p>
+        
+        <h3>📋 Método 3: Manual (Qualquer navegador)</h3>
+        <p>1. Adicione aos <strong>Favoritos/Bookmarks</strong></p>
+        <p>2. Crie um atalho na tela inicial:</p>
+        <p>&nbsp;&nbsp;&nbsp;• Settings → Launcher → Add shortcut</p>
+        <p>&nbsp;&nbsp;&nbsp;• Nome: <strong>PersonalFlix</strong></p>
+        <p>&nbsp;&nbsp;&nbsp;• URL: <strong id="current-url"></strong></p>
+        
+        <h3>🔧 Método 4: APK (Avançado)</h3>
+        <p>1. Use <strong>Hermit</strong> ou <strong>Native Alpha</strong> da Play Store</p>
+        <p>2. Transforme este site em APK</p>
+        
+        <h3>📺 Para melhor experiência:</h3>
+        <p>• Use modo tela cheia (F11)</p>
+        <p>• Configure como página inicial do navegador</p>
+        <p>• Desative notificações do navegador</p>
+        
+        <button id="copy-url" style="background: #f7921e; color: black; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 20px;">
+            📋 Copiar URL
+        </button>
+    </div>
     <div id="install-prompt" class="install-prompt">
         <strong>Instalar PersonalFlix</strong>
         <p>Adicione o PersonalFlix à sua tela inicial para uma experiência melhor!</p>
@@ -274,7 +346,7 @@
     <div class="main-content">
         <h1>Filmes</h1>
         <div class="stats">
-            <span id="showing-count">Mostrando: 0</span> |
+            <span id="showing-count">Mostrando: 0</span> | 
             <span id="total-count">Total: 0</span>
         </div>
         <div id="movies-grid" class="movies-grid"></div>
@@ -336,7 +408,7 @@
 
                 // Setup PWA install prompt
                 this.setupPWAInstall();
-
+                
                 // Setup online/offline detection
                 this.setupOfflineDetection();
 
@@ -350,29 +422,89 @@
                 const installPrompt = document.getElementById('install-prompt');
                 const installButton = document.getElementById('install-button');
                 const dismissButton = document.getElementById('dismiss-install');
+                const manualInstallBtn = document.getElementById('manual-install');
+                const instructionsModal = document.getElementById('install-instructions');
+                const closeInstructions = document.getElementById('close-instructions');
+                const copyUrlBtn = document.getElementById('copy-url');
+                const currentUrlSpan = document.getElementById('current-url');
 
+                // Show current URL
+                currentUrlSpan.textContent = window.location.href;
+
+                // Manual install button (always visible)
+                manualInstallBtn.addEventListener('click', () => {
+                    instructionsModal.style.display = 'block';
+                });
+
+                closeInstructions.addEventListener('click', () => {
+                    instructionsModal.style.display = 'none';
+                });
+
+                copyUrlBtn.addEventListener('click', async () => {
+                    try {
+                        await navigator.clipboard.writeText(window.location.href);
+                        copyUrlBtn.textContent = '✅ URL Copiada!';
+                        setTimeout(() => {
+                            copyUrlBtn.textContent = '📋 Copiar URL';
+                        }, 2000);
+                    } catch (err) {
+                        // Fallback for older browsers
+                        const textArea = document.createElement('textarea');
+                        textArea.value = window.location.href;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                        copyUrlBtn.textContent = '✅ URL Copiada!';
+                        setTimeout(() => {
+                            copyUrlBtn.textContent = '📋 Copiar URL';
+                        }, 2000);
+                    }
+                });
+
+                // Original PWA install prompt
                 window.addEventListener('beforeinstallprompt', (e) => {
                     e.preventDefault();
                     deferredPrompt = e;
                     installPrompt.style.display = 'block';
+                    manualInstallBtn.style.display = 'none'; // Hide manual button if native is available
                 });
 
-                installButton.addEventListener('click', async () => {
-                    if (deferredPrompt) {
-                        deferredPrompt.prompt();
-                        const { outcome } = await deferredPrompt.userChoice;
-                        deferredPrompt = null;
+                if (installButton) {
+                    installButton.addEventListener('click', async () => {
+                        if (deferredPrompt) {
+                            deferredPrompt.prompt();
+                            const { outcome } = await deferredPrompt.userChoice;
+                            deferredPrompt = null;
+                            installPrompt.style.display = 'none';
+                        }
+                    });
+                }
+
+                if (dismissButton) {
+                    dismissButton.addEventListener('click', () => {
                         installPrompt.style.display = 'none';
-                    }
-                });
-
-                dismissButton.addEventListener('click', () => {
-                    installPrompt.style.display = 'none';
-                });
+                        manualInstallBtn.style.display = 'block'; // Show manual button again
+                    });
+                }
 
                 // Hide prompt if already installed
                 window.addEventListener('appinstalled', () => {
                     installPrompt.style.display = 'none';
+                    manualInstallBtn.style.display = 'none';
+                });
+
+                // Detect if running as installed app
+                if (window.matchMedia('(display-mode: standalone)').matches || 
+                    window.navigator.standalone === true) {
+                    manualInstallBtn.style.display = 'none';
+                }
+
+                // Close instructions with Escape key
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && instructionsModal.style.display === 'block') {
+                        instructionsModal.style.display = 'none';
+                    }
                 });
             }
 
@@ -611,5 +743,4 @@
         });
     </script>
 </body>
-
 </html>
