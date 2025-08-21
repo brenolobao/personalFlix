@@ -1,25 +1,17 @@
 const CACHE_NAME = 'personalflix-v1';
 const CACHE_VERSION = '1.0.0';
 
-// Lista de arquivos para cache
+// Lista de arquivos para cache (apenas os que realmente existem)
 const CORE_ASSETS = [
   '/',
-  '/index.html',
-  '/manifest.json',
-  '/movies.json',
-  '/favicon.ico'
+  './index.html',
+  './manifest.json',
+  './movies.json'
 ];
 
-// Assets estáticos para cache
+// Assets estáticos para cache (apenas quando existirem)
 const STATIC_ASSETS = [
-  '/icons/icon-72x72.png',
-  '/icons/icon-96x96.png',
-  '/icons/icon-128x128.png',
-  '/icons/icon-144x144.png',
-  '/icons/icon-152x152.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-384x384.png',
-  '/icons/icon-512x512.png'
+  // Vamos tentar carregar apenas os ícones que existem
 ];
 
 // Event: Install
@@ -30,7 +22,17 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('[SW] Caching core assets');
-        return cache.addAll(CORE_ASSETS);
+        // Cache apenas os arquivos essenciais que sabemos que existem
+        return Promise.all(
+          CORE_ASSETS.map(async (asset) => {
+            try {
+              await cache.add(asset);
+              console.log(`[SW] Cached: ${asset}`);
+            } catch (error) {
+              console.warn(`[SW] Failed to cache ${asset}:`, error);
+            }
+          })
+        );
       })
       .then(() => {
         console.log('[SW] Core assets cached successfully');
@@ -232,11 +234,23 @@ const cleanOldCaches = async () => {
 const preloadCriticalResources = async () => {
   const cache = await caches.open(CACHE_NAME);
 
-  try {
-    await cache.addAll(STATIC_ASSETS);
-    console.log('[SW] Static assets preloaded');
-  } catch (error) {
-    console.warn('[SW] Some static assets failed to preload:', error);
+  // Lista de ícones para tentar carregar (se existirem)
+  const iconsToTry = [
+    './icons/icon-192x192.png',
+    './icons/icon-512x512.png',
+    './favicon.ico'
+  ];
+
+  for (const iconPath of iconsToTry) {
+    try {
+      const response = await fetch(iconPath);
+      if (response.ok) {
+        await cache.put(iconPath, response);
+        console.log(`[SW] Cached icon: ${iconPath}`);
+      }
+    } catch (error) {
+      console.warn(`[SW] Icon not found: ${iconPath}`);
+    }
   }
 };
 
