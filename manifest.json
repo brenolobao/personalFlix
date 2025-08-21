@@ -2,12 +2,12 @@
     "name": "PersonalFlix",
     "short_name": "PersonalFlix",
     "description": "Sua plataforma de streaming pessoal",
-    "start_url": "/",
+    "start_url": "./",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#f7921e",
     "orientation": "portrait-primary",
-    "scope": "/",
+    "scope": "./",
     "lang": "pt-BR",
     "categories": [
         "entertainment",
@@ -15,51 +15,21 @@
     ],
     "icons": [
         {
-            "src": "icons/icon-72x72.png",
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiByeD0iMTYiIGZpbGw9IiMwMDAiLz4KPHRleHQgeD0iMzYiIHk9IjQ1IiBmaWxsPSIjZjc5MjFlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1mYW1pbHk9IkFyaWFsIj5QRjwvdGV4dD4KPC9zdmc+",
             "sizes": "72x72",
-            "type": "image/png",
+            "type": "image/svg+xml",
             "purpose": "maskable any"
         },
         {
-            "src": "icons/icon-96x96.png",
-            "sizes": "96x96",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "icons/icon-128x128.png",
-            "sizes": "128x128",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "icons/icon-144x144.png",
-            "sizes": "144x144",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "icons/icon-152x152.png",
-            "sizes": "152x152",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "icons/icon-192x192.png",
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9IiMwMDAiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZjc5MjFlIj4KICA8cGF0aCBkPSJtNyAyIDEwIDZMNyAxOHoiLz4KPC9zdmc+CjwvZz4KPC9zdmc+",
             "sizes": "192x192",
-            "type": "image/png",
+            "type": "image/svg+xml",
             "purpose": "maskable any"
         },
         {
-            "src": "icons/icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png",
-            "purpose": "maskable any"
-        },
-        {
-            "src": "icons/icon-512x512.png",
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTI4IiBmaWxsPSIjMDAwIi8+CjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMTcwIiBmaWxsPSIjZjc5MjFlIiBmaWxsLW9wYWNpdHk9IjAuMSIvPgo8cGF0aCBkPSJtMTkyIDEyOCAxMjggOTZMMTkyIDMyMHoiIGZpbGw9IiNmNzkyMWUiLz4KPHRleHQgeD0iMjU2IiB5PSIzODAiIGZpbGw9IiNmNzkyMWUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LWZhbWlseT0iQXJpYWwiPlBlcnNvbmFsRmxpeDwvdGV4dD4KPC9zdmc+",
             "sizes": "512x512",
-            "type": "image/png",
+            "type": "image/svg+xml",
             "purpose": "maskable any"
         }
     ],
@@ -68,29 +38,13 @@
             "name": "Buscar Filmes",
             "short_name": "Buscar",
             "description": "Buscar filmes na plataforma",
-            "url": "/?action=search",
+            "url": "./?action=search",
             "icons": [
                 {
-                    "src": "icons/icon-192x192.png",
+                    "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9IiMwMDAiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZjc5MjFlIj4KICA8cGF0aCBkPSJtNyAyIDEwIDZMNyAxOHoiLz4KPC9zdmc+CjwvZz4KPC9zdmc+",
                     "sizes": "192x192"
                 }
             ]
-        }
-    ],
-    "screenshots": [
-        {
-            "src": "screenshots/desktop.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "form_factor": "wide",
-            "label": "PersonalFlix no Desktop"
-        },
-        {
-            "src": "screenshots/mobile.png",
-            "sizes": "375x812",
-            "type": "image/png",
-            "form_factor": "narrow",
-            "label": "PersonalFlix no Mobile"
         }
     ]
 }
